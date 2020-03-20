@@ -1,10 +1,5 @@
 "id","ident","type","name","latitude_deg","longitude_deg","elevation_ft","continent","iso_country","iso_region","municipality","scheduled_service","gps_code","iata_code","local_code","home_link","wikipedia_link","keywords"
-13,"SA01","small_airport","Cachi Airport",-25.1049995422,-66.15720367429999,8232,"SA","AR","AR-A","Cachi","no","SA01",,"CCS",,,"SA01"
-5764,"SAAC","medium_airport","Comodoro Pierrestegui Airport",-31.2969,-57.9966,112,"SA","AR","AR-E","Concordia","no","SAAC","COC","DIA",,"https://en.wikipedia.org/wiki/Comodoro_Pierrestegui_Airport",
-5765,"SAAG","medium_airport","Gualeguaychu Airport",-33.0103,-58.6131,75,"SA","AR","AR-E","Gualeguaychu","no","SAAG","GHU","GUA",,,
-30303,"SAAI","small_airport","Punta Indio Base Aeronaval",-35.353298,-57.290001,49,"SA","AR","AR-B","Veronica","no","SAAI",,"PDI",,,
-5766,"SAAJ","small_airport","Junin Airport",-34.5459,-60.9306,262,"SA","AR","AR-B","Junin","no","SAAJ","JNI","NIN",,,
-32244,"SAAM","closed","Mazaruca Airport",-33.596001,-59.266998,20,"SA","AR","AR-E","Puerto Ibicuy/Mazuraca","no","SAAM",,,,,
-5767,"SAAN","small_airport","Pergamino Airport",-33.919,-60.648,236,"SA","AR","AR-B","Pergamino","no","SAAN",,"PER",,"https://en.wikipedia.org/wiki/Pergamino_Aeroclub",
-5768,"SAAP","medium_airport","General Urquiza Airport",-31.7948,-60.4804,242,"SA","AR","AR-E","Parana","yes","SAAP","PRA","PAR",,"http://en.wikipedia.org/wiki/General_Urquiza_Airport",
-5769,"SAAR","medium_airport","Islas Malvinas Airport",-32.9036,-60.785,85,"SA","AR","AR-S","Rosario","yes","SAAR","ROS","ROS",,"http://en.wikipedia.org/wiki/Rosario_International_Airport","Fisherton Airport"
+13,"San José","R",-25.1049995422,-66.15720367429999,"http://fmsanjosedecachi.blogspot.com/",,"Comunitaria Indigena", "Cachi", "Salta"
+14,"LT15","R",-31.2969,-57.9966,"http://www.lt15concordia.com.ar/","https://lt15concordia.radiostream321.com/", "Comunitaria","Concordia","Entre Ríos"
+15,"Inclusión FM","R",-33.0103,-58.6131,75,"http://www.inclusionfm.com.ar/",,"Popular","Gualeguaychu","Entre Ríos"
+7,"Entre Rios TV", "T",-31.7948,-60.4804,"https://entreriostv.com.ar/", "Comunitaria", "https://entreriostv.com.ar/","Comunitaria","Parana","Entre Rios" 
