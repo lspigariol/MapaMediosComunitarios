@@ -1,5 +1,4 @@
 "id","ident","type","name","latitude_deg","longitude_deg","elevation_ft","continent","iso_country","iso_region","municipality","scheduled_service","gps_code","iata_code","local_code","home_link","wikipedia_link","keywords"
-318526,"AO-0031","closed","Cazaje Airport",-11.063437,20.695914,,"AF","AO","AO-LSU","Cazaje","no",,,,,,
 318527,"AO-0032","small_airport","Longa Airport",-14.610741,18.487945,,"AF","AO","AO-CCU","Longa","no",,,,,,
 318528,"AO-0033","small_airport","Cuchi Airport",-14.64987,16.885391,,"AF","AO","AO-CCU","Cuchi","no",,,,,,
 318529,"AO-0034","small_airport","Mutumbo Airport",-13.179982,17.394938,4773,"AF","AO","AO-BIE","Mutumbo","no",,,,,,
