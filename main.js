@@ -82,24 +82,31 @@ function marcadores(medios) {
     var marker;
     var radios = [];
     var tvs = [];
-    var comu = [];
+//    var comu = [];
     medios.forEach(medio => {
         marker = L.marker(medio.ubicacion, { icon: (medio.tipo == 'R' ? radioIcon : tvIcon) });
-        marker.bindPopup(`<h3><a href=${medio.sitio}> ${medio.nombre}</a></h1>`);
+        marker.bindPopup(
+            `<h3><a href=${medio.sitio}> ${medio.nombre}</a></h3> 
+            <h4> ${medio.definicion}
+            <br> ${medio.ciudad} - ${medio.provincia}
+            </h4>`);
         if(medio.tipo == 'R') 
             radios.push(marker);
         if(medio.tipo == 'T')
             tvs.push(marker);
-        if(medio.definicion.search("Comunitaria") != -1)
-            comu.push(marker);
+        // if(medio.definicion.search("Comunitaria") != -1)
+        //     comu.push(marker);
             
     });
     radiosGroup = L.layerGroup(radios).addTo(mapa);
     tvsGroup = L.layerGroup(tvs).addTo(mapa);
-    comuGroup = L.layerGroup(comu).addTo(mapa);
+//    comuGroup = L.layerGroup(comu).addTo(mapa);
     L.control.layers(
         null,
-        {"Radios":radiosGroup,"Televisoras":tvsGroup,"Comunitarias":comuGroup},
+            {"Radios":radiosGroup
+            ,"Televisoras":tvsGroup
+//          ,"Comunitarias":comuGroup
+            },
         {collapsed:false}).addTo(mapa)
 }
 
