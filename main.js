@@ -86,7 +86,7 @@ function marcadores(medios) {
     medios.forEach(medio => {
         marker = L.marker(medio.ubicacion, { icon: (medio.tipo == 'R' ? radioIcon : tvIcon) });
         marker.bindPopup(
-            `<h3><a href=http://${medio.sitio} target="_blank"> ${medio.nombre}</a></h3> 
+            `<h3><a href=${medio.sitio} target="_blank"> ${medio.nombre}</a></h3> 
             <h4> ${medio.definicion}
             <br> ${medio.ciudad} - ${medio.provincia}
             </h4>`);
