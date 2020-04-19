@@ -1,8 +1,6 @@
 //Medios de comunicacion comunitarios
 
-var mymap;
 //subi el archivo CSV a mi repositorio de github.
-var CSV_DOWNLOAD_LINK = "https://raw.githubusercontent.com/lspigariol/MapaMediosComunitarios/master/medios.csv";
 var DOWNLOAD = 'https://raw.githubusercontent.com/lspigariol/MapaMediosComunitarios/master/'
 
 window.onload = function() {
@@ -23,19 +21,121 @@ function mapConfig() {
 
 class Medio {
     constructor(nombre,ubicacion,tipo, sitio, ciudad, provincia,definicion){
-        this.nombre = nombre;
-        this.ubicacion = ubicacion;
-        this.tipo = tipo;
-        this.sitio = sitio;
-        this.ciudad = ciudad;
-        this.provincia = provincia;
-        this.definicion = definicion;
+        this.nombre = nombre
+        this.ubicacion = ubicacion
+        this.tipo = new TipoMedio(tipo)
+        this.sitio = sitio
+        this.ciudad = ciudad
+        this.provincia = provincia
+        this.definicion = definicion
+    }
+
+    esRadio(){
+        return this.tipo.nombre == "R"
+    }
+    esTV(){
+        return this.tipo.nombre == "T"
+    }
+    esDeRed(claveRed) {
+        if (claveRed == ""){
+            return this.definicion==""
+        }
+        return this.definicion.search(claveRed) != -1
+    }
+   
+    crearMarcador(color){
+//        var marker = L.marker(this.ubicacion, { icon: (this.tipo == 'R' ? radioIcon : tvIcon)})
+        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color)})
+        marker.bindPopup(
+            `<h3>${this.nombre}</a></h3> 
+            <h4> ${this.enlace()}
+            <br> ${this.definicion} - ${this.ciudad} - ${this.provincia}
+            </h4>`)
+        return marker
+    }
+    enlace(){
+        return (this.sitio == "")? "" : `<a href=${this.sitio} target="_blank"> Sitio web </a>`
+    }
+
+
+}
+
+class MapaMedios {
+    constructor(){
+        this.radios = []
+        this.tvs = []
+    }
+
+    agregarMarcador(medio){
+        var marker = medio.crearMarcador("negro")
+        if(medio.esRadio()) 
+            this.radios.push(marker)
+        if(medio.esTV())
+            this.tvs.push(marker)
+    }
+
+    armarGrupos(parentGroup){
+        var radiosSubGroup = L.featureGroup.subGroup(parentGroup, this.radios)
+        var tvSubGroup = L.featureGroup.subGroup(parentGroup, this.tvs)
+  
+        radiosSubGroup.addTo(mapa)
+        tvSubGroup.addTo(mapa)
+    
+        L.control.layers(
+            null,
+                {"Radios":radiosSubGroup
+                ,"Televisoras":tvSubGroup
+                },
+            {collapsed:false}).addTo(mapa)
+    
+    }
+}
+
+class Red {
+    constructor(nombre,clave,color){
+        this.nombre = nombre
+        this.clave = clave
+        this.color = color
+        this.markers = []
+    }
+    agregar(marker){
+        this.markers.push(marker)
+    }
+}
+class MapaRedes {
+    constructor(){
+        this.redes = [
+            new Red("Red de medios A","A","verde"),
+            new Red("Red nacional F","F","rojo"),
+            new Red("Red M","M","azul"),
+            new Red("Otras redes","X","marron"),
+            new Red("Sin red","","negro")
+
+        ]
+    }
+    agregarMarcador(medio){
+        this.redes.forEach(red=> {
+            if (medio.esDeRed(red.clave)){
+                var marker = medio.crearMarcador(red.color)
+                red.agregar(marker)
+            }
+        })
+    }
+
+    armarGrupos(parentGroup){
+        var menu = L.control.layers(null,null,{collapsed:false}).addTo(mapa)
+
+        this.redes.forEach(red=> {
+            var subGroup = L.featureGroup.subGroup(parentGroup, red.markers)
+            subGroup.addTo(mapa)
+            menu.addOverlay(subGroup,red.nombre)
+        })
     }
 }
 //post: devuelvo en un array todos los datos del csv
 //llama a la funciones dentro del callback
 function parsearCSV() {
-    Papa.parse(CSV_DOWNLOAD_LINK, {
+    Papa.parse(DOWNLOAD + "medios.csv", {
         complete: function(results) {
             crearMapa(convertirDatos(results));
         },
@@ -62,54 +162,63 @@ function convertirDatos(results) {
     return medios;
 }
 
-var tvIcon = L.icon({
-    iconUrl: DOWNLOAD + 'tv.png',
-    iconSize: [40, 40],
-});
-var radioIcon = L.icon({
-    iconUrl: DOWNLOAD + 'radio.png',
-    iconSize: [40, 40],
-});
+class TipoMedio {
+    constructor(nombre){
+        this.nombre =nombre
+        this.medida = 30         
+    }
+    crearIcono(color){
+        return L.icon({
+            iconUrl: DOWNLOAD + this.nombre + color + ".png",
+            iconSize: [this.medida, this.medida]
+        })
+    }
+}
+// var tvIcon = L.icon({
+//     iconUrl: DOWNLOAD + 'tv.png',
+//     iconSize: [40, 40],
+// });
+// var radioIcon = L.icon({
+//     iconUrl: DOWNLOAD + 'radio.png',
+//     iconSize: [40, 40],
+// });
 
 //pre:recibe un array de medios
 //post:crea y muestra marcadores con los medios
 function crearMapa(medios) {
     console.log(medios);
+//    marcadores(medios, new MapaMedios());
     marcadores(medios);
 }
 
 function marcadores(medios) {
     var marker;
-    var radios = [];
-    var tvs = [];
+    // var radios = [];
+    // var tvs = [];
 //    var comu = [];
+    var parentGroup  = L.markerClusterGroup({maxClusterRadius:40});
     medios.forEach(medio => {
-        marker = L.marker(medio.ubicacion, { icon: (medio.tipo == 'R' ? radioIcon : tvIcon) });
-        marker.bindPopup(
-            `<h3><a href=${medio.sitio} target="_blank"> ${medio.nombre}</a></h3> 
-            <h4> ${medio.definicion}
-            <br> ${medio.ciudad} - ${medio.provincia}
-            </h4>`);
-        if(medio.tipo == 'R') 
-            radios.push(marker);
-        if(medio.tipo == 'T')
-            tvs.push(marker);
-        // if(medio.definicion.search("Comunitaria") != -1)
-        //     comu.push(marker);
-            
-    });
-    radiosGroup = L.layerGroup(radios).addTo(mapa);
-    tvsGroup = L.layerGroup(tvs).addTo(mapa);
-//    comuGroup = L.layerGroup(comu).addTo(mapa);
-    L.control.layers(
-        null,
-            {"Radios":radiosGroup
-            ,"Televisoras":tvsGroup
-//          ,"Comunitarias":comuGroup
-            },
-        {collapsed:false}).addTo(mapa)
+//        marker = medio.crearMarcador() 
+        tipoMapa.agregarMarcador(medio)
+    })
+    tipoMapa.armarGrupos(parentGroup)
+    parentGroup.addTo(mapa)
+
+    // radiosGroup = L.layerGroup(radios).addTo(mapa);
+    // tvsGroup = L.layerGroup(tvs).addTo(mapa);
 }
 
-function niveles(medios){
-    
-}
+// function obtenerCoordenadas(direccion){
+//     var resultado;
+//     jQuery.getJSON(
+//         `https://nominatim.openstreetmap.org/search?format=json&q=${direccion})`,
+//         function(data){
+//             resultado = [data[0].lat, data[0].lon]
+//             console.log(resultado)
+//             var blob = new Blob(resultado, {type: "text/plain;charset=utf-8"});
+//             saveAs(blob, "testfile1.txt");
+//         }); 
+//     return resultado;
+
+// }
+
