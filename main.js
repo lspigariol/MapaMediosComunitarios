@@ -46,7 +46,7 @@ class Medio {
    
     crearMarcador(color){
 //        var marker = L.marker(this.ubicacion, { icon: (this.tipo == 'R' ? radioIcon : tvIcon)})
-        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color)})
+        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color),title: this.nombre})
         marker.bindPopup(
             `<h3>${this.nombre}</a></h3> 
             <h4> ${this.enlace()}
@@ -62,11 +62,13 @@ class Medio {
 }
 
 class MapaMedios {
+
     constructor(){
         this.radios = []
         this.tvs = []
+        this.parentGroup
     }
-
+    
     agregarMarcador(medio){
         var marker = medio.crearMarcador("negro")
         if(medio.esRadio()) 
@@ -74,12 +76,17 @@ class MapaMedios {
         if(medio.esTV())
             this.tvs.push(marker)
     }
+    layer() {
+        return this.parentGroup
+    }
+
 
     armarGrupos(){
-        var parentGroup  = L.markerClusterGroup({maxClusterRadius:30});
-        var radiosSubGroup = L.featureGroup.subGroup(parentGroup, this.radios)
-        var tvSubGroup = L.featureGroup.subGroup(parentGroup, this.tvs)
-  
+        this.parentGroup  = L.markerClusterGroup({maxClusterRadius:40});
+        var radiosSubGroup = L.featureGroup.subGroup(this.parentGroup, this.radios)
+        var tvSubGroup = L.featureGroup.subGroup(this.parentGroup, this.tvs)
+        
+     
         radiosSubGroup.addTo(mapa)
         tvSubGroup.addTo(mapa)
     
@@ -89,7 +96,7 @@ class MapaMedios {
                 ,"Televisoras":tvSubGroup
                 },
             {collapsed:false}).addTo(mapa)
-        parentGroup.addTo(mapa)
+        this.parentGroup.addTo(mapa)
 
     }
 }
@@ -130,6 +137,11 @@ class MapaRedes {
                 red.agregar(marker)
             }
         })
+    }
+    layer() {
+        //return new L.LayerGroup(this.redes.flatMap(red=>{red.markers}))
+        return new L.LayerGroup(this.redes.flatMap(red=>{return red.markers}))
+
     }
 
     // armarGrupos(parentGroup){
@@ -233,6 +245,16 @@ function marcadores(medios) {
     })
     tipoMapa.armarGrupos()
 
+    var controlSearch = new L.Control.Search({
+		position:'topleft',		
+		layer: tipoMapa.layer(),
+//		layer: new L.layerGroup([]),
+		initial: false,
+		zoom: 12,
+		marker: false
+	})
+
+	mapa.addControl( controlSearch );
     // radiosGroup = L.layerGroup(radios).addTo(mapa);
     // tvsGroup = L.layerGroup(tvs).addTo(mapa);
 }
