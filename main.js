@@ -8,6 +8,7 @@ window.onload = function() {
     parsearCSV();
 };
 
+var fondo
 /*CONFIGURANDO Y MOSTRANDO EL MAPA*/
 function mapConfig() {
     mapa = L.map('mapa').setView([-40.231486, -66.197284], 4);
@@ -74,7 +75,8 @@ class MapaMedios {
             this.tvs.push(marker)
     }
 
-    armarGrupos(parentGroup){
+    armarGrupos(){
+        var parentGroup  = L.markerClusterGroup({maxClusterRadius:30});
         var radiosSubGroup = L.featureGroup.subGroup(parentGroup, this.radios)
         var tvSubGroup = L.featureGroup.subGroup(parentGroup, this.tvs)
   
@@ -87,7 +89,8 @@ class MapaMedios {
                 ,"Televisoras":tvSubGroup
                 },
             {collapsed:false}).addTo(mapa)
-    
+        parentGroup.addTo(mapa)
+
     }
 }
 
@@ -101,6 +104,13 @@ class Red {
     agregar(marker){
         this.markers.push(marker)
     }
+    crearIcono(){
+        return L.icon({
+            iconUrl: DOWNLOAD + "punto"+this.color + ".png",
+            iconSize: [20, 20]
+        })
+    }
+
 }
 class MapaRedes {
     constructor(){
@@ -122,15 +132,40 @@ class MapaRedes {
         })
     }
 
-    armarGrupos(parentGroup){
-        var menu = L.control.layers(null,null,{collapsed:false}).addTo(mapa)
+    // armarGrupos(parentGroup){
+    //     var menu = L.control.layers(null,null,{collapsed:false}).addTo(mapa)
+
+    //     this.redes.forEach(red=> {
+    //         var subGroup = L.featureGroup.subGroup(parentGroup, red.markers)
+    //         subGroup.addTo(mapa)
+    //         menu.addOverlay(subGroup,red.nombre)
+    //     })
+    // }
+
+
+    armarGrupos(){ 
+        //var parentGroup  = L.markerClusterGroup({maxClusterRadius:30});
+//        var overLayers = []
+        //var menu = L.control.layers(null,null,{collapsed:false}).addTo(mapa)
+        var menu = new L.Control.PanelLayers()
 
         this.redes.forEach(red=> {
-            var subGroup = L.featureGroup.subGroup(parentGroup, red.markers)
-            subGroup.addTo(mapa)
-            menu.addOverlay(subGroup,red.nombre)
+            //var subGroup = L.featureGroup.subGroup(parentGroup, red.markers)
+            menu.addOverlay({
+                name:red.nombre,
+                icon:'<i class="icon icon-'+red.color+'"></i>',
+                layer: L.layerGroup(red.markers),
+                active:true
+            })
+            // subGroup.addTo(mapa)
+            // menu.addOverlay(subGroup,red.nombre)
         })
+        //parentGroup.addTo(mapa)
+        mapa.addControl( menu )
+
     }
+
+
 }
 //post: devuelvo en un array todos los datos del csv
 //llama a la funciones dentro del callback
@@ -174,6 +209,7 @@ class TipoMedio {
         })
     }
 }
+
 // var tvIcon = L.icon({
 //     iconUrl: DOWNLOAD + 'tv.png',
 //     iconSize: [40, 40],
@@ -187,22 +223,15 @@ class TipoMedio {
 //post:crea y muestra marcadores con los medios
 function crearMapa(medios) {
     console.log(medios);
-//    marcadores(medios, new MapaMedios());
     marcadores(medios);
 }
 
 function marcadores(medios) {
-    var marker;
-    // var radios = [];
-    // var tvs = [];
-//    var comu = [];
-    var parentGroup  = L.markerClusterGroup({maxClusterRadius:40});
+ 
     medios.forEach(medio => {
-//        marker = medio.crearMarcador() 
         tipoMapa.agregarMarcador(medio)
     })
-    tipoMapa.armarGrupos(parentGroup)
-    parentGroup.addTo(mapa)
+    tipoMapa.armarGrupos()
 
     // radiosGroup = L.layerGroup(radios).addTo(mapa);
     // tvsGroup = L.layerGroup(tvs).addTo(mapa);

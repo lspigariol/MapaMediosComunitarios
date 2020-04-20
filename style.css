@@ -2,3 +2,28 @@
     height: 500px;    
     margin: 10px;
 }
+
+.icon {
+	display: inline-block;
+	margin: 2px;
+	height: 20px;
+	width: 20px;
+	background-color: #ccc;
+}
+
+/* ICONS */
+.icon-negro {
+	background: url('puntonegro.png') center center no-repeat;
+}
+.icon-verde {
+	background: url('puntoverde.png') center center no-repeat;
+}
+.icon-azul {
+	background: url('puntoazul.png') center center no-repeat;
+}
+.icon-rojo {
+	background: url('puntorojo.png') center center no-repeat;
+}
+.icon-marron {
+	background: url('puntomarron.png') center center no-repeat;
+}
