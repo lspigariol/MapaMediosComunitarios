@@ -1,4 +1,4 @@
-101,San José,R,-25.1049995422,-66.15720367429999,http://fmsanjosedecachi.blogspot.com,,M,Indigena,Cachi,Salta
+101,San José,R,-25.1049995422,-66.15720367429999,http://fmsanjosedecachi.blogspot.com,,M,Cachi,Salta
 102,LT15,R,-31.2969,-57.9966,http://www.lt15concordia.com.ar/,https://lt15concordia.radiostream321.com/,MF,Concordia,Entre Ríos
 103,Inclusión FM,R,-33.0103,-58.6131,http://www.inclusionfm.com.ar,,X,Gualeguaychu,Entre Ríos
 104,Entre Rios TV,T,-31.7948,-60.4804,https://entreriostv.com.ar,,F,Parana,Entre Ríos
@@ -24,3 +24,643 @@
 20,Feria de San Telmo,T,-34.6248591,-58.37111249999998,,,M,,
 21,Tigre,T,-34.425087000,-58.579658500,,,F,,
 22,Parque El Rosedal,T,-34.570833000,-58.416667000,,,F,,
+35333,Cullen Airport,R,-52.885101318359375,-68.41220092773438,,,F,,
+35334,Los Cerros Airport,R,-54.34410095214844,-67.83290100097656,,,F,,
+35335,Rio Bellavista Airport,R,-53.98270034790039,-68.52359771728516,,,F,,
+35398,Merlo Airport,T,-32.35820007324219,-65.01740264892578,,,F,,RLO
+35399,Bragado Airport,R,-35.144,-60.4803,,,M,QRF,BRA
+35401,Caleta Olivia Airport,R,-46.4318008423,-67.5186004639,,,A,CVI,CAO
+42798,Aeroclub Chaco Airport,R,-27.6311,-59.1797,,,FA,,RES
+35403,Charata Airport,R,-27.2164,-61.2103,,,FA,CNT,CHA
+35404,General Villegas Airport,R,-35,-63,,,M,VGS,GAS
+35405,Los Menucos Airport,R,-40.817699,-68.074699,,,M,LMD,MCO
+42799,Aerofumigaciones Don Alejandro Airport,T,-33.3053,-60.6539,,,F,,OGB
+42800,Agro Servicio Yoris Airport,R,-26.583055,-64.529724,,,X,,GYT
+42801,Agroaire Airport,R,-27.4978,-61.6586,,,FA,,GAI
+35412,Valcheta Airport,R,-40.7000007629,-66.1500015259,,,M,VCF,VAL
+35413,Villa Mercedes Airport,R,-33.640858,-65.420074,,,F,,CED
+38694,13 De Diciembre Airport,R,-45.9033,-67.5564,,,F,,ICO
+38695,Abel Monteverde Heliport,R,-32.9208,-62.4663,,,F,,HMB
+38696,Acindar Airport,R,-33.2647,-60.2842,,,F,,ION
+38697,Aeroboero Airport,R,-30.7286,-62.0078,,,F,,BOE
+38698,Bahia Blanca Aeroclub Airport,R,-38.6722,-62.3522,,,M,,BHB
+38699,Balcarce Aeroclub Airport,R,-37.9156,-58.3442,,,M,,BAL
+38700,Cipoletti Aeroclub Airport,R,-38.8931007385,-67.9886016846,,,M,,CIP
+38701,Olavarria Aeroclub Airport,R,-36.9644012451,-60.2757987976,,,M,,OLC
+38702,Rauch Airport,R,-36.7717,-59.0575,,,M,,RAU
+38703,Tandil Aeroclub Airport,T,-37.26559829711914,-59.093299865722656,,,M,,
+38704,Aerotec Airport,R,-33.206943512,-68.492225647,,,F,,RAE
+38705,Alagro Fumigaciones Airport,R,-32.8878,-60.8436,,,F,,UNE
+38706,San Andres De Giles Airport,R,-34.4703,-59.4247,,,M,,GIL
+38707,Alejandro Roca Airport,R,-33.3488998413,-63.7299995422,,,F,,ALR
+38708,Alfredo Sanchez Airport,R,-34.8011,-61.865,,,M,,SEZ
+38709,Algarrobo/La Reforma Airport,R,-38.7306,-63.2869,,,M,,BRF
+38710,Allen Airport,R,-38.958099365200006,-67.8035964966,,,M,,ALL
+38711,Alta Gracia Airport,R,-31.651399612400002,-64.39389801029999,,,F,,AGR
+38712,Alumine Airport,R,-38.9502983093,-71.0492019653,,,F,,ALU
+38713,Alvear Aeroparque Airport,R,-33.0467,-60.5969,,,F,,AVA
+38714,Alvear Airport,R,-29.064722,-56.541111,,,F,,AVR
+38715,Ameghino Airport,R,-34.8458,-62.4817,,,M,,AMG
+38716,America Airport,R,-35.5017,-62.99,,,M,,RVA
+38717,Añatuya Airport,R,-28.4797000885,-62.8457984924,,,F,,UYA
+38718,Andacollo Airport,R,-37.20333480834961,-70.69666290283203,,,F,,
+38719,Anibal Brizi Airport,R,-31.4042,-60.8992,,,F,,EBF
+38720,Arelauquen Heliport,R,-41.1612,-71.3659,,,M,,HBA
+38721,Aries Heliport,R,-52.6831,-68.0419,,,F,,HES
+38722,Arrecifes Aeroclub Airport,R,-34.0833,-60.0333,,,M,,CIF
+38723,Arribeños Airport,R,-34.2228,-61.3858,,,M,,ARB
+38724,Arroyito/Arcor Airport,R,-31.4221992493,-63.0041999817,,,F,,ARY
+38725,Austral Heliport,R,-52.8936,-68.3553,,,F,,ULL
+38726,Autodromo Ciudad De Bs. As. Heliport,R,-34.6939,-58.46,,,F,,HAU
+38727,Presidente Avellaneda Airport,R,-29.1061,-59.6569,,,F,,AVL
+38728,Ayacucho Airport,R,-37.1639,-58.4719,,,M,,AYA
+38729,Ayres De Pilar Heliport,R,-34.4375,-58.7983,,,M,,HAP
+38730,Azcarate Irastorza Heliport,R,-35.1994,-63.6008,,,F,,
+38731,B&B Servicios Agropecuarios Airport,R,-32.1147,-61.6328,,,F,,CBB
+38732,B. Churruca Heliport,T,-34.6407,-58.4094,,,F,,HBC
+38733,Baradero Airport,T,-33.8217,-59.4925,,,M,,BDO
+38734,Barrancas Airport,R,-36.7756004333,-69.8593978882,,,F,,
+38735,Basavilbaso Airport,R,-32.3611,-58.8808,,,F,,BAS
+38736,Batan Airport,R,-38.0117,-57.6775,,,M,,MDB
+38737,Belén De Escobar Airport,R,-34.2986,-58.7989,,,M,,LEN
+38738,Bellamar Airport,R,-38.3858,-58.1336,,,M,,MBL
+38739,Benavidez Airport,R,-34.388054,-58.663887,,,M,,DEZ
+38740,Blondi Airport,R,-34.61333465576172,-61.02305603027344,,,M,,
+38741,Gran Ancona Airport,R,-33.4383,-61.3017,,,F,,BOM
+38742,Bonetti Airport,R,-27.604166030900004,-55.863887786899994,,,F,,PBO
+38743,Pablo Sierra Aeroaplicaciones Airport,R,-30.9294,-62.0506,,,F,,BPS
+38744,Cabaña San Isidro Labrador Heliport,R,-34.3783,-58.7883,,,M,,HCI
+38745,Cabañas Airport,R,-32.9775,-58.5222,,,F,,GLM
+38746,Cabildo Airport,R,-38.4986000061,-61.8843994141,,,M,,CBD
+44745,Ituzaingo / Transener S.A. Heliport,R,-27.5601,-56.6568,,,F,,HIT
+38748,Cabo Vírgenes Heliport,R,-52.3278,-68.4092,,,A,,HCV
+38749,Caleufu Airport,R,-40.39390182495117,-70.96330261230469,,,F,,
+38750,Campo De Vuelo Heliport,R,-31.3689,-64.2636,,,F,,HMO
+38751,Canals Airport,R,-33.5622,-62.8692,,,F,,CNS
+38752,Cañada De Gomez Airport,R,-32.8086,-61.365,,,F,,GOM
+38753,Cañada Rosquin Airport,R,-32.0994,-61.5839,,,F,,SQI
+38754,Cañuelas Airport,R,-35.1119,-58.7261,,,M,,CNA
+38755,Capitan Sarmiento Airport,R,-34.1639,-59.7311,,,M,,CTS
+38756,Vedia Aeroclub,R,-34.4817,-61.4903,,,M,,VDA
+38757,Carhue Airport,R,-37.1942,-62.7814,,,M,,HUE
+38758,Carlos Casares Airport,R,-35.6328,-61.3842,,,M,,CSR
+38759,Las Ensenadas Airport,R,-31.4552993774,-64.5263977051,,,F,,CPZ
+38760,Carlos Tejedor Airport,T,-35.4256,-62.4697,,,M,,TEJ
+38761,Carmen De Areco Airport,R,-34.4175,-59.8719,,,M,,CNO
+38762,Casa De Gobierno Heliport,R,-31.4306,-64.1842,,,F,,HGC
+38763,Casilda Airport,R,-33.0617,-61.21,,,F,,ILD
+38764,Castelli Airport,R,-36.11000061035156,-57.86194610595703,,,M,,
+38765,Castelli Airport,R,-25.93083381652832,-60.628055572509766,,,FA,,
+38766,Centinela Heliport,R,-34.5822,-58.3744,,,F,,
+38767,Central Nuclear Heliport,R,-32.2294,-64.44,,,F,,HCN
+38768,Centro Cívico Grand Bourg Heliport,R,-24.7806,-65.4514,,,F,,HGB
+38769,Cereales Anahi Ruca Airport,R,-35.6736106873,-63.7180557251,,,F,,GPF
+38770,Cerro Chapelco Heliport,R,-40.1981,-71.3211,,,F,,
+38771,Chacabuco Airport,R,-34.6069,-60.4097,,,M,,UCO
+38772,Chacharramendi Airport,R,-37.3405990601,-65.646697998,,,F,,CHR
+38773,Chajari Airport,R,-30.7542,-58,,,F,,CHJ
+38774,Chañar Ladeado Airport,R,-33.3333,-62.0333,,,F,,CLD
+38775,Chascomus Airport,T,-35.5428,-58.0519,,,M,,MUS
+38776,Chivilcoy Airport,R,-34.9639,-60.0333,,,M,,CHY
+38777,Cholila Airport,R,-42.484722,-71.460556,,,F,,CHO
+38778,Cinco Saltos Airport,R,-38.801666259765625,-68.03722381591797,,,M,,
+38779,Citefa Heliport,R,-34.5575,-58.5056,,,M,,HVM
+38780,Ciudad Universitaria Heliport,R,-31.4406,-64.1894,,,F,,HCU
+38781,Club Nautico San Isidro Heliport,R,-34.4614,-58.5003,,,M,,
+38782,Colon Airport,R,-33.9231,-61.0461,,,M,,CON
+38783,Colon Airport,R,-32.2614,-58.1556,,,F,,CLN
+38784,Complejo Llao Llao Heliport,R,-41.0544,-71.5339,,,M,,HLL
+38785,Concepcion Del Uruguay Airport,R,-32.4519,-58.3058,,,F,,CDU
+38786,Concordia Aeroclub Airport,R,-31.3042,-58.0153,,,F,,CRD
+38787,Confluencia Airport,R,-36.771400451699996,-69.5385971069,,,F,,
+38788,Coronel Dorrego Airport,R,-38.7411,-61.2561,,,M,,DOR
+38789,Coronel Pringles Airport,R,-38.0066680908,-61.331943512,,,M,,PRI
+38790,Coronel Vidal Airport,R,-37.4689,-57.7669,,,M,,VDL
+38791,Corral De Bustos Airport,R,-33.2811,-62.1514,,,F,,BTS
+38792,Santa María Airport,R,-31.286100387599998,-64.4552993774,,,F,,CQN
+38793,Cruz Alta Airport,R,-33.0078,-61.8369,,,F,,ALT
+38794,Curuzu Cuatia Aeroclub Airport,R,-29.7789,-58.0958,,,F,,CZU
+38795,D.P.A.O. Heliport,R,-34.9597,-57.8928,,,M,,HLP
+38796,Fumigaciones Airport,R,-36.5914,-61.7753,,,M,,DFR
+38797,Darregueira Airport,R,-37.7127990723,-63.161899566699994,,,M,,DAR
+38798,Darsena Sur Heliport,R,-34.6278,-58.3515,,,F,,HDA
+38799,Dean Funes Airport,R,-30.379199981699998,-64.379699707,,,F,,FUN
+38800,Diamante Airport,R,-32.0161,-60.5825,,,F,,DTE
+38801,Dines ( Dr. E. Escudero) Heliport,T,-34.5726,-58.4005,,,F,,HDI
+42802,Agrocelta Servicios Aereos Airport,T,-33.8867,-60.8628,,,M,,AGC
+38803,Saavedra Airport,T,-37.750242,-62.33425,,,M,,DRA
+38804,Ecodyma S.C.A. Heliport,T,-34.9408,-57.9919,,,M,,HEC
+38805,Eduardo Castex Airport,T,-35.8805541992,-64.2738876343,,,F,,ECX
+38806,El Alamito Airport,R,-37.27361297607422,-70.38972473144531,,,F,,
+38807,Establecimiento El Araza Airport,R,-36.7756,-57.6414,,,M,,HZA
+38808,El Capricho Heliport,R,-34.2325,-59.3158,,,M,,HCO
+38809,El Corcovado Airport,R,-43.533599853515625,-71.48470306396484,,,F,,
+38810,El Gaucho Airport,R,-32.6294,-61.5444,,,F,,EGO
+38811,El Manantial Airport,R,-35.1943,-58.3594,,,M,,EML
+38812,El Pajaro Airport,R,-34.8237,-58.3169,,,M,,FVA
+38813,El Pampero Airport,R,-36.5928001404,-64.1866989136,,,F,,ELP
+38814,El Trebol Airport,R,-32.2153,-61.7161,,,F,,ETB
+38815,Elizalde Airport,R,-34.9747,-57.9614,,,M,,ELZ
+38816,Esperanza Airport,R,-31.4736,-60.8447,,,F,,EPZ
+38817,Esquina Airport,R,-30.0489,-59.5353,,,F,,ESN
+38818,Estancia Don Roberto Airport,R,-34.0013999939,-65.366897583,,,F,,ERT
+38819,Estancia Haychol Heliport,R,-38.6481,-70.6775,,,F,,HHL
+38820,Estancia La Candelaria Heliport,R,-40.0442,-71.3664,,,F,,HCD
+38821,Estancia La Chacota Heliport,R,-35.9133,-62.6417,,,M,,HTL
+38822,Estancia La Choza Airport,R,-30.5389,-58.2928,,,F,,CHC
+38823,Estancia La Laurita Airport,R,-44.7761116027832,-70.1963882446289,,,F,,
+38824,Estancia Llamuco Airport,R,-38.79944610595703,-70.43472290039062,,,F,,
+38825,Estancia Los Cardos Airport,R,-37.7356,-58.0342,,,M,,BLC
+38826,Estancia Nueva Lubecka Airport,R,-44.44194412231445,-70.44222259521484,,,F,,
+38827,Estancia Palitue Heliport,R,-39.8528,-71.0464,,,F,,HJN
+38828,Estancia San Juan Airport,R,-29.6028,-58.0281,,,F,,HSJ
+38829,Estancia San Ramón Airport,R,-50.303495,-69.926057,,,A,,HSR
+38830,Estancia Santa Ana Heliport,R,-51.6839,-71.9689,,,A,,HTS
+38831,Estancia Santa Isabel Heliport,R,-39.8847,-70.5136,,,F,,HCL
+38832,Estindher Airport,R,-33.0931015015,-64.42919921880001,,,F,,RIE
+38833,Ezpeleta Airport,R,-34.7464,-58.2033,,,M,,EZP
+38834,Finca Las Costas Heliport,R,-24.7703,-65.4956,,,F,,HFC
+38835,Firmat Aeroclub Airport,R,-33.4289,-61.5108,,,F,,FAE
+38836,Formosa Aeroclub Airport,R,-26.3014,-58.2983,,,F,,FOR
+38837,Fortín De Gainza Airport,R,-34.5494,-63.1225,,,M,,SRE
+38838,Fuerza Aérea(Edificio Cóndor) Heliport,R,-34.5858,-58.3681,,,F,,HFA
+38839,Fumigaciones Stadler Airport,R,-32.5786,-60.9119,,,F,,SER
+38840,Galvez Airport,R,-32.0322,-61.1758,,,F,,VEZ
+38841,General Alvear Aeroclub Airport,R,-34.9730987549,-67.7236022949,,,F,,GVA
+38842,General Belgrano Airport,R,-35.7519,-58.4633,,,M,,GBE
+38843,General Deheza Airport,R,-32.745300293,-63.7957992554,,,F,,GDH
+38844,General La Madrid Airport,R,-37.2271995544,-61.2792015076,,,M,,LAM
+38845,General Las Heras,R,-34.9206,-58.9164,,,M,,GLH
+38846,General Levalle Airport,R,-34.0038871765,-63.9308319092,,,F,,LEV
+38847,General Madariaga Airport,R,-37.0392,-57.1372,,,M,,MAD
+38848,General Pìnedo Airport,R,-27.3394,-61.2744,,,FA,,GPO
+38849,General Pinto Airport,R,-34.7861,-61.9142,,,M,,PNT
+38850,General Rodriguez Airport,R,-34.497234,-59.037457,,,M,,GRZ
+38851,Los Toldos Airport,R,-34.9744,-61.0206,,,M,,GNV
+38852,Gobernador Crespo Aeroclub Airport,R,-30.3878,-60.3656,,,F,,GCR
+38853,Gobernador Santillán Airport,R,-27.901399612426758,-64.24970245361328,,,F,,
+38854,Gomez Airport,R,-35.0956,-58.0853,,,M,,GOZ
+38855,Gonzalez Chaves Airport,R,-38.0293998718,-60.136100769,,,M,,GVZ
+38856,Goya Aeroclub,R,-29.1678,-59.2464,,,F,,GYA
+38857,Guadalupe Airport,R,-31.584,-60.668,,,F,,
+38858,Gualeguay Airport,R,-33.1036109924,-59.3747215271,,,F,,UAY
+38859,Agro Aereo Gualeguay Airport,R,-33.0386,-59.4383,,,F,,GAA
+38860,Helicenter Heliport,R,-34.4975,-58.6069,,,M,,HLI
+38861,Heliplataforma Am I Heliport,R,-52.5192,-68.3858,,,A,,HAB
+38862,Heliplataforma Carina Heliport,R,-52.7572,-67.2194,,,A,,HRI
+38863,Heliplataforma/Am-2 Heliport,R,-52.5489,-68.3125,,,A,,HAD
+38864,Heliplataforma/Am3 Heliport,R,-52.5228,-68.2808,,,A,,HAM
+38865,Heliplataforma/Am5 Heliport,R,-52.5706,-68.2533,,,A,,HMQ
+38866,Heliplataforma/Rio Cullen-Hidra Norte Heliport,R,-52.8206,-68.2192,,,F,,HNO
+38867,Heliwest Heliport,R,-34.6336,-58.7511,,,M,,HHW
+38868,Henderson Airport,R,-36.3147010803,-61.747798919699996,,,M,,HDS
+38869,Hospital De Milagro Heliport,R,-24.7731,-65.4156,,,F,,HHM
+38870,Hospital Materno Infantil San Roque Heliport,R,-31.73,-60.5217,,,F,,HPE
+38871,Hospital Municipal Heliport,R,-34.4489,-59.4494,,,M,,HSH
+38872,Hospital Nac. De Pediatría J. Garraham Heliport,R,-34.6308,-58.3936,,,M,,HNP
+38873,Huanguelen Airport,R,-37.0330543518,-61.934165954600005,,,M,,HUG
+38874,Huinca Renanco Airport,R,-34.8203010559,-64.3731002808,,,F,,HUI
+38875,Ingeniero Luiggi Airport,R,-35.3549995422,-64.4758300781,,,F,,IGL
+42803,Agroservicio Doña Teresa Airport,R,-28.8494,-62.2625,,,F,,ADT
+38877,Establecimiento La Susana,R,-34.909168,-59.348888,,,M,,
+38878,Intendente Alvear Airport,R,-35.2592,-63.5328,,,F,,IAL
+38879,Intendente Alvear,R,-35.2494,-63.5342,,,F,,
+45160,Fumigaciones Herbinsec Airport,R,-35.138611,-62.705278,,,M,,ROH
+38881,Isla Santa Mónica Heliport,R,-34.4147,-58.5072,,,M,,HSM
+38882,Don Hector Biondi Airport,R,-33.2464,-62.4167,,,F,,IVB
+38883,Italaviation Airport,R,-29.1608,-59.1814,,,F,,GIT
+38884,Jacinto Arauz Airport,R,-38.066101074200006,-63.4282989502,,,F,,JAR
+38885,Jardin De América Airport,R,-27.0324993134,-55.1980552673,,,F,,JDA
+38886,Jesús Maria Airport,R,-30.988100051900002,-64.0768966675,,,F,,JES
+38887,Agropecuaria Rio Juramento Airport,R,-25.1867008209,-64.0828018188,,,F,,JGA
+38888,Tres Lomas Airport,R,-36.4439,-62.8792,,,M,,JMB
+38889,Juan Carlos Bagur Airport,R,-32.4186,-59.8158,,,F,,NJB
+38890,Juan Y Luci Heliport,R,-32.6922,-64.7206,,,F,,HAC
+38891,Juarez Celman Airport,R,-31.2113895416,-64.1613922119,,,F,,JCM
+38892,La Angelita Airport,R,-30.8522,-58.7067,,,F,,FAG
+38893,Trenque Lauquen Airport,R,-36.0158,-62.6939,,,M,,LAU
+38894,La Caida Airport,R,-34.8625,-58.3447,,,M,,LLC
+38895,La Caldera Heliport,R,-36.6669,-56.6789,,,M,,HCA
+38896,La Carolina Heliport,R,-31.3525,-64.2828,,,F,,HLC
+38897,La Consulta Airport,R,-33.7308349609375,-69.17388916015625,,,F,,
+38898,La Fantasia,R,-34.7286,-59.109402,,,M,,
+38899,La Laja Airport,R,-31.3513889313,-68.47305297850001,,,F,,AJA
+38900,Quebracho Herrado Airport,R,-34.1553,-59.8739,,,M,,CSQ
+38901,La Madrugada Heliport,R,-34.2382,-59.1915,,,M,,HLM
+38902,La Mezquita Airport,R,-31.400800705,-64.3003005981,,,F,,MEZ
+38903,La Milagrosa Heliport,R,-32.4828,-58.2506,,,F,,HMI
+38904,La Nueva Airport,R,-34.9464,-61.3042,,,M,,LNV
+38905,La Paz Aeroclub Airport,R,-30.7442,-59.5683,,,F,,LAZ
+38906,La Pelada Airport,R,-30.9556,-60.8858,,,F,,PEL
+38907,La Siesta Airport,R,-33.6939,-62.0625,,,F,,VTO
+38908,La Superba Heliport,R,-34.5008,-59.015,,,M,,HLS
+38909,Laborde Airport,R,-33.1567,-62.8906,,,F,,LAB
+38910,Lago Buenos Aires Airport,R,-46.5764007568,-70.948600769,,,A,,BAI
+38911,Lago Escondido Heliport,R,-41.7033,-71.6075,,,M,,HLE
+38912,Lago La Esperanza Airport,R,-42.217499,-71.805003,,,F,,LZA
+38913,Lago Nahuel Huapi Airport,R,-41.0971984863,-71.17780303960001,,,M,,LNH
+38914,Laguna Aeroclub Airport,R,-34.40888977050781,-59.45833206176758,,,M,,
+38915,Laguna De Gomez Airport,R,-34.6539,-61.01,,,M,,LDG
+38916,Laprida Airport,R,-37.518901825,-60.7769012451,,,M,,LPR
+38917,Las Araucarias Heliport,R,-34.3067,-59.1703,,,M,,HCS
+38918,Las Chacritas Heliport,R,-34.405,-58.8631,,,M,,HLT
+38919,Las Cortaderas Airport,R,-38.3547,-58.1089,,,M,,BLL
+38920,Las Marias Airport,R,-28.1,-56.05,,,F,,VSO
+38921,Las Ovejas Airport,R,-36.999699,-70.741897,,,F,,OVJ
+38922,Las Rosas Airport,R,-32.4922,-61.5806,,,F,,LRS
+38923,Las Varillas Airport,R,-31.8914,-62.7047,,,F,,LVL
+38924,Lanzillota Airport,R,-32.7214012146,-68.6342010498,,,F,,LLZ
+38925,Legat S.A. Heliport,R,-34.3168,-58.8166,,,M,,HBE
+38926,Leones Airport,R,-32.6368,-62.3148,,,F,,LEO
+38927,Luján Airport,R,-34.5514,-59.0783,,,M,,LJN
+38928,Lincoln Airport,R,-34.8911,-61.5306,,,M,,LIN
+38929,El Mirador,R,-34.538887,-59.585278,,,M,,LAD2230
+38930,Loberia Airport,R,-38.1906,-58.7864,,,M,,LBI
+38931,Nika Airport,R,-38.1478,-58.7542,,,M,,NIK
+38932,Lobos Airport,R,-35.2108,-59.1367,,,M,,BOS
+38933,Los Cardos Airport,R,-32.2719,-61.6622,,,F,,LCD
+38934,Los Fresnos Heliport,R,-34.2806,-59.12,,,M,,HLF
+38935,Los Perales Airport,R,-46.1907997131,-69.28029632570001,,,A,,LHP
+38936,Los Tucanes Airport,R,-27.0358333588,-65.1566696167,,,X,,TUT
+38937,Macachin Airport,R,-37.111099243199995,-63.5499992371,,,F,,MAC
+38938,Madero Heliport,R,-34.6217,-58.3447,,,F,,HBM
+38939,Maipu Airport,R,-36.8903,-57.8503,,,M,,MPU
+38940,Manuel Afonso Heliport,R,-34.815,-58.1953,,,M,,HMA
+38941,Marcos Paz,R,-34.7975,-58.8969,,,M,,MSP
+38942,Martín Fierro Airport,R,-33.940299987799996,-64.3696975708,,,F,,VMK
+38943,Match Point Heliport,R,-34.5161,-59.1339,,,M,,HMP
+38944,Meliquina Airport,R,-40.33530044555664,-71.33920288085938,,,F,,
+38945,Memorial Heliport,R,-34.4433,-58.8381,,,M,,HME
+38946,Mercedes Airport,R,-34.6397,-59.4556,,,M,,MRD
+42804,Azcarate Irastorza Airport,R,-35.1994,-63.6008,,,F,,IAA
+38948,Metán Airport,R,-25.5144004822,-64.9655990601,,,F,,MTN
+38949,Mina Clavero Airport,R,-31.7331008911,-64.98560333249999,,,F,,MCL
+38950,Miraflores Country Club Heliport,R,-34.4461,-58.7342,,,M,,HMC
+38951,Monte Maiz Airport,R,-33.2103,-62.6297,,,F,,MAI
+38952,Montecarlo Airport,R,-26.5438995361,-54.723899841299996,,,F,,MTL
+38953,Moromar Airport,R,-38.4164,-58.3839,,,M,,UEN
+38954,Morrison Heliport,R,-32,-62,,,F,,HRR
+38955,Morteros Airport,R,-30.6778,-62.0267,,,F,,MTR
+38956,Navarro Airport,R,-35.0236,-59.2858,,,M,,NVR
+38957,Nogoya Airport,R,-32.4025,-59.7461,,,F,,NOG
+38958,Norberto Cordeiro Heliport,R,-31.4142,-64.4969,,,F,,HAI
+38959,Oficial Subinspector Gustavo Soarez De Souza Heliport,R,-34.7236,-58.515,,,M,,HMF
+38960,Oliva Airport,R,-32.060798645,-63.5469017029,,,F,,OLV
+38961,Oreste Berta Heliport,R,-31.6269,-64.3922,,,F,,HOB
+38962,P.N.A. Of. Ppal. Ballestra Heliport,R,-34.5772,-58.3838,,,F,,HPN
+38963,Palitue Airport,R,-39.81638717651367,-71.0294418334961,,,F,,
+38964,Parana Aeroclub Airport,R,-31.7578,-60.3733,,,F,,ANA
+38965,Parana Club De Planeadores Airport,R,-31.7314,-60.22,,,F,,PNA
+38966,Parque Hermoso Airport,R,-38.0287,-57.6393,,,M,,MPH
+38967,Pedro Luro Airport,R,-39.4561,-62.6747,,,M,,URO
+38968,Pellegrini Airport,R,-36.2828,-63.1342,,,M,,PLG
+38969,LAD 2198 Juan Jose Angelini,R,-34.426945,-59.480278,,,M,,LAD2198
+38970,Pilcaniyeu Airport,R,-41.12666702270508,-70.7138900756836,,,M,,
+38971,Pinamar Airport,R,-37.0911,-56.9783,,,M,,PNR
+38972,Planta Cruz Del Sur Heliport,R,-53.3228,-68.2658,,,F,,HEN
+38973,Poblet Airport,R,-35.0881,-57.9492,,,M,,PBE
+38974,Policía Provincia De Córdoba Heliport,R,-31.3994,-64.1833,,,F,,HPC
+38975,Policlinico San Martin Heliport,R,-34.9167,-57.9167,,,M,,HPM
+38976,Polisur S.A. Heliport,R,-38.7742,-62.2939,,,M,,HBP
+38977,Posadas Aeroclub Airport,R,-27.417499542236328,-55.93972396850586,,,F,,
+38978,Presidencia De La Nación Heliport,R,-34.6064,-58.3683,,,F,,
+38979,Puán Airport,R,-37.5393981934,-62.734199523899996,,,M,,PUA
+38980,Pueblo Esther Airport,R,-33.0817,-60.5647,,,F,,ROP
+38981,Terminal 6 Airport,R,-32.6417,-60.7539,,,F,,PST
+38982,Pulmari Airport,R,-39.100555419921875,-70.99888610839844,,,F,,
+38983,Punta Alta Airport,R,-38.8342,-62.0869,,,M,,PLT
+38984,Raies Heliport,R,-31.3461,-64.2081,,,F,,HRA
+38985,Rancho De Montaña Heliport,R,-40.1525,-71.2856,,,F,,HRM
+38986,La Igualdad Airport,R,-35.5133,-58.3531,,,M,,RAI
+38987,Rawson Airport,R,-43.2944,-65.0644,,,F,,RAW
+38988,Realicó Airport,R,-35.0592002869,-64.2110977173,,,F,,RLC
+38989,Nueva Valencia Airport,R,-27.5864,-58.8203,,,F,,ENV
+38990,Don Jose Airport,R,-32.8275,-60.7817,,,F,,RDJ
+38991,Rio Chico Airport,R,-51.6686,-69.2603,,,A,,RGR
+38992,Estancia Rio Ewan Heliport,R,-54.233548,-67.213246,,,F,,HRW
+38993,Rivadavia Airport,R,-33.227222442599995,-68.4741668701,,,F,,RVD
+38994,Rojas Airport,R,-34.215,-60.6725,,,M,,RJA
+38995,Rosario De La Frontera Airport,R,-25.828056335399996,-64.9680557251,,,F,,FRO
+38996,Rosario Del Tala Airport,R,-32.3289,-59.1906,,,F,,ROT
+38997,Rufino Airport,R,-34.2831,-62.6719,,,F,,RUF
+38998,Salliqueló Airport,R,-36.756401062,-62.9444007874,,,M,,SLO
+38999,Salto Airport,R,-34.3069,-60.2858,,,M,,SLT
+39000,San Benito Airport,R,-31.8086,-60.4517,,,F,,SBE
+39001,San Cayetano Heliport,R,-38.33388900756836,-59.630279541015625,,,M,,
+39002,San Cristobal Airport,R,-30.2642,-61.2203,,,F,,SCT
+39003,San Francisco Airport,R,-31.4142,-62.1336,,,F,,FRA
+39004,San Isidro Labrador Heliport,R,-35.0814,-63.0822,,,M,,HIL
+39005,San Joaquín Heliport,R,-34.3344,-59.7139,,,M,,HRC
+39006,San Jorge Airport,R,-31.8836,-61.8442,,,F,,JOR
+39007,San Justo Airport,R,-30.7642,-60.5653,,,F,,SJT
+39008,Aeroclub San Martín,R,-33.061883,-68.508644,,,F,,STI
+39009,Bahía Agradable Airport,R,-35.4594,-58.7636,,,M,,SMM
+42805,Bahía Dorada Airport,R,-41.8428,-65.0822,,,M,,BDR
+39011,San Vicente Airport,R,-26.9533004761,-54.4878005981,,,F,,VTE
+39012,Sanatorio Guemes Heliport,R,-34.597,-58.4219,,,F,,HSG
+39013,Santo Tome Airport,R,-28.5272216796875,-56.10944366455078,,,F,,
+39014,Sarthou S.A. Heliport,R,-34.3642,-58.5497,,,M,,HFS
+39015,Saturnino Unzue Heliport,R,-35.4244,-60.1561,,,M,,HUU
+39016,Scaro Airport,R,-24.4480552673,-65.1758346558,,,F,,MTS
+46643,Villa de María de Río Seco Airport,R,-29.9,-63.683,,,F,,MRS
+39018,Sol De Agosto Heliport,R,-34.5331,-58.9714,,,M,,HAG
+39019,Stroeder Airport,R,-40.2106,-62.6175,,,M,,STD
+39020,Suboficial Auxiliar Miguel A. Cardone Airport,R,-33.9617,-61.6325,,,F,,VCC
+39021,Sunchales Aeroclub Airport,R,-30.9575,-61.5283,,,F,NCJ,SCA
+39022,Swiss Medical Heliport,R,-34.5808,-58.4294,,,F,,HMD
+39023,Talitas Heliport,R,-32.5481,-58.2406,,,F,,HTA
+39024,Estancia Tecka Airport,R,-43.6122207642,-71.0219421387,,,F,,TEC
+39025,Tecnocopter S.A. Heliport,R,-34.4922,-58.6061,,,M,,HHT
+39026,Terminal Y.P.F. Heliport,R,-34.7322,-58.5589,,,M,,HMY
+39027,Tilisarao Airport,R,-32.75,-65.28220367429999,,,F,,TLS
+39028,Timen S.A. Heliport,R,-34.4964,-58.6078,,,M,,HDT
+39029,Tolosa Airport,R,-34.8747,-57.9608,,,M,,PTL
+39030,Tornquist Airport,R,-38.0956001282,-62.2503013611,,,M,,TOR
+39031,Tostado Airport,R,-29.2358,-61.7886,,,F,,TOS
+39032,Transener S.A. Heliport,R,-34.175,-58.9983,,,M,,HCT
+39033,Transener S.A. Heliport,R,-34.9136,-58.7222,,,M,,HCG
+39034,Transener S.A. Heliport,R,-32.3694,-66.0631,,,F,,HLU
+39035,Recreo / Transener S.A. Heliport,R,-29.2628,-65.0582,,,F,,HRE
+39036,Transener S.A. Heliport,R,-38.1472,-65.8228,,,F,,HPU
+39037,Transener S.A. Heliport,R,-33.0989,-68.5819,,,F,,HCR
+39038,Transener S.A. Heliport,R,-40.1622,-70.3917,,,F,,HPG
+39039,Transener S.A. Heliport,R,-39.5675,-65.6886,,,M,,HCC
+39040,Transener S.A. Heliport,R,-29.4606,-59.7636,,,F,,HRT
+39041,Transener S.A. Heliport,R,-26.9936,-65.1636,,,X,,HBO
+39042,Almafuerte / Transener S.A. Heliport,R,-32.203,-64.315,,,F,,HAT
+39043,Montecristo / Transener S.A. Heliport,R,-31.3392,-63.9138,,,F,,HMT
+39044,Chevron Texaco Airport,R,-37.365002,-69.300278,,,F,,TXO
+39045,Horco Molle Aeroclub Airport,R,-26.7961006165,-65.3091964722,,,X,,TCM
+39046,Unidad Penitenciaria N° 30 Heliport,R,-36.0444,-60.0167,,,M,,HUP
+39047,Urdinarrain Airport,R,-32.6964,-58.8992,,,F,,URD
+39048,Veinticinco De Mayo Airport,R,-35.4464,-60.0886,,,M,,MAY
+39049,Vera Airport,R,-29.4681,-60.2261,,,F,,VER
+39050,Veronica Airport,R,-35.4,-57.3667,,,M,,VNA
+39051,Victoria Airport,R,-32.5844,-60.1847,,,F,,VIC
+39052,Victorica Airport,R,-36.237499237099996,-65.450553894,,,F,,VCA
+39053,Villa Del Rosario Airport,R,-31.579313,-63.539184,,,F,,VDR
+39054,Villa General Belgrano Airport,R,-31.9652996063,-64.5643997192,,,F,,VGB
+39055,Villa Ocampo Airport,R,-28.4969,-59.3256,,,F,,VPO
+39056,Villa Regina Airport,R,-39.073600769,-67.08000183109999,,,M,,VRG
+39057,Villa Rumipal Airport,R,-32.1850013733,-64.4882965088,,,F,,VRU
+39058,Zarate Airport,R,-34.12,-59.0836,,,M,,ATE
+42806,Belingueres Aviación Airport,R,-34.2778,-60.5044,,,M,,IBA
+42807,Bocca Airport,R,-31.8711,-61.9511,,,F,,SJB
+42808,Buena Esperanza Airport,R,-30.5306,-58.3972,,,F,,EZA
+42809,Buenos Aires Airport, Baradero,-33.859722,-59.468887,,,M,,
+42810,Burdisso Airport,R,-32.2406,-61.7583,,,F,,TBL
+42811,Carlos Saqui Airport,R,-31.635000228881836,-63.86109924316406,,,F,,RSA
+42812,Carmen De Patagones Airport,R,-40.7781,-62.9803,,,M,CPG,PAT
+42813,Club De Planeadores Airport,R,-38.0153,-57.6536,,,M,,MPP
+42814,Colonia Tirolesa Airport,R,-31.244722,-64.035278,,,F,,TIR
+42815,Comandante Eduardo A. Olivero Airport,R,-37.366668701171875,-58.96666717529297,,,M,,
+42816,Concepción Airport,R,-27.345434,-65.617973,,,X,,CCP
+42817,Coronel Brandsen Airport,R,-35.1828,-58.2839,,,M,,SEN
+42818,Coronel Moldes Airport,R,-33.616669,-64.612503,,,F,,MLD
+42819,Di Giuseppe Airport,R,-32.8908,-61.1239,,,F,,CDI
+42820,Dinaluca S.A. Airport,R,-27.3828,-57.6442,,,F,,BAD
+42821,EAA General Rodriguez,R,-34.6803,-59.0358,,,M,,GEZ
+42822,El Girasol Airport,R,-33.6661,-59.8339,,,M,,GOC
+42823,El Gringo Airport,R,-27.3086,-61.2114,,,FA,,CHT
+42824,El Jagüel Airport,R,-31.7994,-59.0339,,,F,,UEL
+42825,El Malagueño Airport,R,-31.6994,-59.4006,,,F,,VLL
+42826,El Pilincho Airport,R,-30.3872,-57.9683,,,F,,MCP
+42827,El Toto Airport,R,-31.650278,-64.368889,,,F,,TOT
+42828,Establecimiento La Adelita Airport,R,-31.3925,-61.1431,,,F,,HUM
+42829,Establecimiento La Florencia Airport,R,-33.0769,-61.3178,,,F,,LMF
+42830,Estancia Caridad Airport,R,-43.72139,-71.24556,,,F,,VEC
+42831,Estancia El Chañar Airport,R,-31.2887,-62.4189,,,F,,CLM
+42832,Estancia La Leonor Airport,R,-26.1494,-59.6672,,,FA,,PRA
+42833,Estancia La Providencia Airport,R,-32.9411,-58.565,,,F,,GLP
+42834,Estancia La Salvación Airport,R,-25.2767,-58.9375,,,F,,PLS
+42835,Estancia Lucila Airport,R,-38.3086,-58.105,,,M,,ELL
+42836,Estancia San Vicente Airport,R,-32.9989,-61.7781,,,F,,TSV
+42837,Estancia Santa Romana Airport,R,-33.753334,-65.246391,,,F,,MSR
+42838,Estancia Villa Corina Airport,R,-28.035,-56.0678,,,F,,EVC
+42839,Estancia Villa María,R,-34.6433,-59.1272,,,M,,LVM
+42840,F.A.T. Airport,R,-34.1767,-61.5069,,,F,,TEO
+42841,Finca La Frontera Airport, San Martín,-22.12351,-63.29055,,,F,,
+42842,Firmat Airport,R,-33.4661,-61.4842,,,F,,FIM
+42843,Fumigaciones Campagnucci Airport,R,-33.3239,-60.6658,,,F,,BOG
+42844,Fumigaciones Fredy Airport,R,-34.2361,-60.5819,,,M,,PRC
+42845,Fumigaciones González Airport,R,-32.3589,-60.9797,,,F,,MON
+42846,General Belgrano Airport,R,-24.745834,-65.418892,,,F,,GBL
+42847,General San Martin (La Pampa) Airport,R,-37.94972,-63.6175,,,F,,SMT
+42848,Ginevro Airport,R,-31.864445,-62.844166,,,F,,LVR
+42849,Gualeguay Aeroclub Airport,R,-33.0994,-59.4172,,,F,,UAE
+42850,Guatraché Airport,R,-37.682800293,-63.5508003235,,,F,,GTE
+42851,Haras La Pomme Airport,R,-34.2078,-59.3856,,,M,,SHP
+42852,Haras Trelliris Airport,R,-35.3314,-60.5792,,,M,,BHT
+42853,Hosteria San Huberto Airport,R,-39.7038879395,-71.16999816890001,,,F,,JAH
+42854,Iriberri Airport,R,-38.4769,-58.8056,,,M,,NEI
+42855,Islas Del Ibicuy Airport,R,-33.75,-58.7,,,F,,IBY
+42856,La Carlota Airport,R,-33.450000762900004,-63.3499984741,,,F,,LCT
+42857,La Chacra Airport,R,-34.8119,-62.522501,,,M,,ALC
+42858,La Esmeralda Airport,R,-29.9939,-57.8378,,,F,,LLE
+42859,La Lucía Airport,R,-33.0119,-61.0608,,,F,,PLL
+42860,La Madrugada Airport,R,-38.0036,-59.3489,,,M,,LMD
+42861,La Mariela Airport,R,-35.7828,-61.9342,,,M,,PJO
+42862,La Zulema Airport,R,-32.4897,-62.6714,,,F,,ZLM
+42863,Las Lilas Airport,R,-35.1328,-62.2175,,,M,,PAS
+42864,Malabrigo Airport,R,-29.35,-59.9667,,,F,,MLA
+42865,Match Point Airport,R,-34.5161,-59.1339,,,M,,LMP
+42866,Montes De Oca Airport,R,-32.5811,-61.8408,,,F,,OCA
+42867,Ñancu Airport,R,-35.6161,-63.7508,,,F,,GPU
+42868,Pedro Ferrari Airport,R,-32.9278,-62.4336,,,F,,MBF
+42869,Petrazzini Airport,R,-38.3478,-60.2761,,,M,,YOP
+42870,Petruk Airport,R,-27.0878,-58.6694,,,FA,,LPP
+42871,Pettilep Airport,R,-33.005,-61.0194,,,F,,PUP
+42872,Pettilep II Airport,R,-32.8039,-60.7989,,,F,,PEP
+42873,Puerta De Avalos Airport,R,-24.314679,-65.247198,,,F,,PDA
+42874,Pulverizaciones M.H. Airport,R,-27.4831,-61.6486,,,FA,,GDO
+42875,Saldungaray Airport,R,-38.216388702399996,-61.750831604,,,M,,SLG
+42876,San Cayetano Airport,R,-38.3339,-59.6303,,,M,,CAY
+42877,San Gregorio Airport,R,-34.3169,-62.0192,,,F,,SGE
+42878,San Ignacio Airport,R,-39.847499847399995,-70.8638916016,,,F,,JLA
+42879,San José De La Dormida Airport,R,-30.2775001526,-63.8574981689,,,F,,SJD
+42880,Santo Tomás De La Sierra Airport,R,-38.2666664124,-61.8333320618,,,M,,SLY
+42881,Savesa Airport,R,-33.7792,-61.9775,,,F,,VTS
+42882,Sigfrido Rohr Aviagro S.R.L. Airport,R,-34.8306,-62.4678,,,M,,AME
+42883,Skare Airport,R,-34.3571833134,-60.1559829712,,,M,,SSK
+42884,Termal Airport,R,-26.753611,-60.492222,,,FA,PRQ,PSP
+42885,Timboy Airport,R,-30.2236,-57.8444,,,F,,MCT
+42886,Trevelin Airport,R,-43.08797,-71.47868,,,F,,TVN
+45161,Casilda Fumigaciones Airport,R,-33.174722,-61.2,,,F,,SCF
+42888,Yapeyú Airport,R,-29.44393,-56.823915,,,F,,YPY
+42889,Berrini Heliport,R,-31.4397,-64.3433,,,F,,HBR
+42890,Campanopolis Heliport,R,-34.791746,-58.601936,,,M,,HIS
+42891,Casa De Lata Heliport,R,-39.8153,-71.1681,,,F,,HDL
+42892,Country Club San Diego Heliport,R,-34.6006,-58.8414,,,M,,HSD
+42893,Dayry Partners Americas Manufacturing Argentina Sa Heliport,R,-32.44,-63.2289,,,F,,HNE
+42894,Dr. Mariano Moreno Heliport,R,-34.5631,-58.7903,,,M,,HMM
+42895,Estancia La Pascuala Heliport,R,-37.3936,-58.9661,,,M,,HTD
+42896,Heliplataforma Barcaza Yagana Heliport,R,-52.5225,-68.2806,,,A,,HBY
+42897,Heliplataforma Buque Skandi Patagonia Heliport,R,-52,-67,,,A,,HSP
+42898,Heliplataforma Equipo Modular M-10 Heliport,R,-52.5489,-68.3119,,,A,,HEM
+42899,Metalúrgico Heliport,R,-33.3617,-60.2511,,,M,,HSN
+42900,Pachón Minera Heliport, Calingasta,-31.7597,-70.4128,,,F,,
+42901,Pernigotti Heliport,R,-27.7708,-64.2278,,,F,,HBD
+42902,Policia De La Provincia De Mendoza Heliport,R,-32.8783,-68.8681,,,F,,HPD
+42903,Roca Heliport,R,-32.06,-64.7794,,,F,,HYC
+42904,S.A.N.A. Heliport,R,-27.5494,-55.3336,,,F,,HLA
+42905,Austral S.A. Heliport,R,-52.7386,-68.5725,,,F,,HCP
+42906,General Alvear Airport,R,-35.9783,-59.9061,,,M,,GAR
+42907,San Patricio Airport,R,-34.0403,-59.6944,,,M,,CSP
+42908,La Cura Malal Airport,R,-34.0536,-60.1369,,,M,,ACM
+45153,Cañuelas Gas SA Heliport,R,-35.0583,-58.7883,,,M,,HGA
+45154,Colonia La Capilla Heliport,R,-34.9167,-58.2508,,,M,,HFV
+45155,Miguel Colombise Heliport,R,-33.3617,-60.2511,,,F,,HSN
+45156,Piero Vara Heliport,R,-34.4328,-58.9722,,,M,,HPI
+45157,Rio Cullen II Heliplatform,R,-52.8364,-68.1789,,,F,,HCE
+45162,La Argentina Airport,R,-35.996667,-62.705278,,,M,,ATN
+46644,La Paz Airport,R,-33.467,-67.55,,,F,,PAZ
+46645,Colonia Sarmiento Airport,R,-45.582371,-68.999841,,,F,OLN,STO
+298878,Agroaire Airport,R,-27.476346,-61.624434,,,FA,,
+313007,Aeroclub de El Chaltén Alf. G.N.A. Walter Omar D Anna,R,-49.328889,-72.93,,,A,,ELX
+313008,Hipólito Yrigoyen Lago Posadas Airport,R,-47.565833,-71.74,,,A,,
+313014,Puerto Piramides Airport,R,-42.550804,-64.269397,,,F,,
+313015,Punta Delgada Field,R,-42.764154,-63.643799,,,F,,
+313021,Camerones Field,R,-44.76667,-65.71667,,,F,,
+313022,Caleta Valdés Field,R,-42.454874,-63.61908,,,F,,
+313090,Telsen,R,-42.383333,-66.95,,,F,,
+313091,Gan Gan Field,T,-42.521363,-68.287861,,,F,,
+313092,Gastre Field,R,-42.276165,-69.221892,,,F,,
+313093,Cushamen Field,R,-42.17195981,-70.666176,,,F,,
+313094,Las Plumas Filed,R,-43.729305,-67.284822,,,F,,
+314776,Estancia Cullen South Airport,R,-52.9435,-68.4021,,,F,,
+314777,Sara Airport,R,-53.432,-68.167,,,F,,
+314778,Rio Chico Highway Strip,R,-53.642,-67.9486,,,F,,
+314780,Los Robles Airport,R,-54.069,-67.6536,,,F,,
+318230,Agroalvear S.R.L. Airport,R,-33.06833,-60.66694,,,F,,ALV
+318231,Arias Airport,R,-33.664,-62.3751,,,F,,COA
+318238,Estancia La Alborada,R,-37.462706,-58.188557,,,M,,BLA
+318241,Finca Cuchuy Airport,R,-23.04,-63.7211,,,F,,FCU
+318243,Calchaqui Airport,R,-29.85167,-60.29194,,,F,,CCI
+318244,Stiefel Airport,R,-31.99472,-61.60278,,,F,,RST
+318245,Fumagro Airport,R,-37.214729,-62.780581,,,M,,CFU
+318246,Establecimiento La Maria Pilar Airport,R,-36.488606,-63.432958,,,F,,CTP
+318247,Agroservicios Airport,R,-33.2723,-60.5707,,,F,,ACB
+318248,Alfomso Mengo Airport,R,-32.02444,-64.27944,,,F,,CAM
+318249,Lomas del Espinillo Airport,R,-32.08806,-64.16972,,,F,,CLE
+318250,Ita Ibate Airport,R,-27.44833,-57.422241,,,F,,CII
+318251,Estancia San Rafael Airport,R,-25.04347,-58.5915,,,F,,ESR
+318252,Bernardo's Airport,R,-32.2506,-61.6519,,,F,,TDB
+318253,Salvita Airport,R,-23.2128,-64.0339,,,F,,SLV
+318254,El Desafio,R,-23.2426,-63.323,,,F,,FDD
+318255,Finca La Hercilia Airport,R,-22.6147,-63.662759,,,F,,FLH
+318256,Kalbermatter Airport,R,-27.26028,-61.47444,,,FA,,GPK
+318257,El Potrero,R,-32.97472,-58.25389,,,F,,GEP
+318259,Plus Agroservicios Aereos S.R.L. Airport,R,-33.8136,-61.3357,,,F,,HGS
+318260,Biondi Airport],R,-33.2232,-62.4046,,,F,,IVL
+318263,Casajus,R,-33.3882,-63.3055,,,F,,LCC
+318264,Don Emilio Airport,R,-26.73247,-64.88455,,,X,,LRE
+318265,AeroSoluciones Airport,R,-24.74889,-64.235,,,F,,LLA
+318266,Don Alberto Airport,R,-35.8696,-57.8768,,,F,,LDA
+318268,Fumigaciones Ortega Airport,R,-35.2757,-61.5564,,,M,,DOF
+318269,Campo San Jose Airport,R,-30.77778,-62.01472,,,F,,CSJ
+318270,Pulverizaciones Aerosur Airport,R,-38.576401,-58.796429,,,M,,NPA
+318271,Finca Toloche Airport,R,-25.4346,-63.8578,,,F,,NST
+318273,Agro Aéreo La Noria,R,-33.85696,-60.70038,,,M,,PEN
+318274,Servicios Aeronauticos,R,-37.523004,-62.452319,,,M,,PSA
+318275,Estancia La Carolina Airport,R,-33.07558,-60.715,,,F,,PLC
+318276,SAS Aeroaplicaciones Airport,R,-24.80667,-64.18111,,,F,,PCA
+318278,Vale Airport,R,-37.06556,-69.39556,,,F,,RCV
+318279,Aeroagereo,R,-35.13588,-61.99717,,,M,,ROB
+318281,La Amalia,R,-35.10042,-62.01656,,,M,,AMA
+318282,BSG Airport,R,-34.24968,-62.67416,,,F,,RBS
+318283,Abelenda Airport,R,-35.738533,-59.76201,,,M,,SAB
+318290,Vergnano Airport,R,-30.32012,-61.90165,,,F,,SGV
+318297,Aeroclub San Javier,R,-30.5559,-59.9907,,,F,,SJR
+318298,Chialva S. H. Airport,R,-32.736945,-62.531378,,,F,,SMS
+318300,Santa Clara de Saguier Airport,R,-31.35549,-61.82983,,,F,,SCL
+318301,San Alberto Airport,R,-36.592071,-64.220437,,,F,,SLP
+318302,Cóndor del Aire Airport,R,-33.46587,-60.62854,,,F,,CDA
+318303,Fumigaciones Nando Airport,R,-29.77963,-62.03181,,,F,,SFN
+318305,Establecimiento El 21 Airport,R,-26.8952,-62.30962,,,F,,TEV
+318306,Tío Pujio Airport,R,-32.29307,-63.40197,,,F,,TIO
+318307,Santagiulian Airport,R,-38.40573,-60.29968,,,M,,SGI
+318308,Estancia Los Lobles Airport,R,-36.552913,-63.766652,,,F,,URL
+318309,Estancia La Criolla Airport,R,-35.537034,-60.129512,,,M,,ELC
+318310,Servicios Agroaereos Airport,R,-35.449205,-60.160708,,,M,,MSA
+318311,Don Angel Airport,R,-33.93823,-64.40774,,,F,,VMA
+318313,Beneficios S.R.L. Airport,R,-33.93759,-64.415095,,,F,,VMB
+318314,Comequechen Airport,R,-33.93402,-64.415946,,,F,,VMC
+318492,Santa Isabel Airport,R,-36.23682,-66.94624,,,F,,
+318493,Limay Mahuida Airport,R,-37.1201,-66.704,,,F,,
+318495,Nueva Galia Airport,R,-35.089382,-65.197724,,,F,,
+318506,RAIG S.A. Airport,R,-32.4382,-63.2893,,,F,,VNR
+318507,Suarez Aviación Airport,R,-32.4272,-63.3024,,,F,,VNS
+318508,Villa Valeria Airport,R,-34.35653,-64.90136,,,F,,CVV
+318509,D.P. El Vapor Heliport,R,-34.83467,-58.38498,,,M,,HEV
+318510,Centro Cívico Bicentenario Heliport,R,-31.42037,-64.173235,,,F,,HBI
+318511,Superficie Heliport,R,-34.90046,-57.929486,,,M,,HBT
+318513,C.A.P.E. Provincial Police Heliport,R,-29.4356,-66.8632,,,F,,HPL
+318514,La Reserva Heliport,R,-34.27045,-58.90043,,,M,,HLR
+318515,Cooperativa de Trabajos Portuarios Limitada Heliport,R,-32.71915,-60.72636,,,F,,HPT
+318516,Edificio Tribunales Helipad,R,-27.7813,-64.265,,,F,,HET
+318517,Villa La Ñata Heliport,R,-34.37527,-58.65576,,,M,,HVA
+318945,Coy Aike Airport,R,-51.162246,-69.487675,,,A,,
+318946,Estancia Elena Airport,R,-49.727768,-68.756606,,,A,,
+321675,Fortin Cabo Lugones Airport,R,-24.300451,-59.830954,,,F,,
+321676,Posta Cambio A Zalazar Airport,R,-24.214083,-60.201159,,,F,,
+321677,Colonel Alfonso Airport,R,-25.130442,-58.217977,,,F,,
+321678,San Hilario Airport,R,-25.86448,-58.672887,,,F,,380
+321701,Santa Elena Airport,R,-30.976069,-59.776894,,,F,,973
+321708,Augusto Leguizamon Airport,R,-34.818011,-62.477107,,,M,,AUL
+321709,Dutto Airport,R,-28.870432,-62.241535,,,F,,ADU
+321710,Malfato Airport,R,-35.1517,-60.5056,,,M,,BMO
+321711,Cañada Quiroz Airport,R,-27.5497,-58.7175,,,F,,CQZ
+321732,Malatini Airport,R,-35.569123,-61.368224,,,M,,CCM
+321733,Ottaviani Airport,R,-35.648137,-61.350425,,,M,,CCO
+321734,Copetonas Airport,R,-38.743657,-60.553332,,,M,,CTA
+321740,Don Moises Airport,R,-32.039622,-64.192827,,,F,,MOI
+321745,Itati Airport,R,-27.305297,-58.313924,,,F,,CIT
+321746,Las 2 A Airport,R,-34.811475,-60.51701,,,M,,AII
+321748,Daireaux Airport,R,-36.5828,-61.7842,,,M,,DRX
+321754,Estancia Santa Elisa Airport,R,-29.304436,-56.881343,,,F,,GSE
+321755,Hernando Airport,R,-32.337145,-63.685178,,,F,,NAN
+321763,Antares Airport,R,-34.528223,-63.960879,,,F,,JOC
+321764,Lanteri Airpiort,R,-28.86085,-59.673331,,,F,,LAN
+321765,Agroalas S.R.L. Airport,R,-26.870159,-64.74663,,,X,,CEJ
+321766,Horizonte Aplicaciones Areas Airport,R,-32.521761,-61.550695,,,F,,LRT
+321767,Samave Airport,R,-33.786401,-62.127806,,,F,,MAB
+321768,El Recuerdo S.R.L. Airport,R,-33.10549,-63.192986,,,F,,PAN
+321769,Rovere Airport,R,-26.783029,-60.487414,,,FA,,PSV
+321771,Estancia La Elba,R,-44.5728,-65.3706,,,F,,LAE
+321772,Fumigaciones Herbinsec Airport,R,-35.1386,-61.9928,,,M,,ROH
+321775,Parajon Airport,R,-34.576385,-61.005748,,,M,,SAF
+323143,Bahía Laura Airport,R,-48.331097,-66.417847,,,A,,
+323144,Fitz Roy Airport,R,-47.021639,-67.241585,,,A,,
+323145,Tres Cerros Airport,R,-48.138678,-67.655065,,,A,,
+323146,Ministro Ramos Mexía Airport,R,-40.523752,-67.214651,,,M,,
+323147,Arroyo de la Ventana Airport,R,-41.669222,-66.097071,,,M,,
+323148,Dique Florentino Ameghino Airport,R,-43.674928,-66.493948,,,F,,
+323149,Arroyo Los Berros Airport,R,-41.438981,-66.090185,,,M,,
+324366,La Caldonia Airport,R,-32.1306,-61.8935,,,F,,1063
+324367,El Ocho Airstrip,R,-31.799689,-59.703579,,,F,,
+324368,Timbo Airstrip,R,-31.8266,-59.0333,,,F,,
+324542,Puerto San Antonio Este Airstrip,R,-40.799532,-64.864185,,,M,,
+324544,Guardia Mitre Airstrip,R,-40.418091,-63.663347,,,M,,
+324545,La Sistina Airstrip,R,-36.974031,-62.436969,,,M,,
+324978,Anillaco Airport,R,-28.795111,-66.914675,,,F,,ANI
+327561,El Sauzalito Airport,R,-24.443851,-61.68824,,,FA,,
+327565,Ingeniero Juárez Airport,R,-23.904822,-61.820092,,,F,,
+327584,La Cruz Airport,R,-29.159962,-56.658639,,,F,,
+327585,Loma Alta Airport,R,-29.049088,-57.081729,,,F,,
+327586,Itá Caabó Airport,R,-29.29287,-57.727213,,,F,,529
+327589,Estancia El Cencerro Airport,R,-30.534775,-60.438022,,,F,,451
+327590,Estancia El Pinocho,R,-32.564739,-58.51746,,,F,,496
+327603,Estancia La Elisa Airport,R,-34.038888,-59.776944,,,M,,578
+327605,Estancia Los Leones Airport,R,-31.170558,-60.718125,,,F,,750
+327611,Estancia Trebolares Airport,R,-35.636734,-63.498798,,,F,,938
+327617,Rincón de Luna Airport,R,-28.470238,-58.249234,,,F,,1300
+327621,Finca Porvenir 8 Airport,R,-24.994562,-64.341664,,,F,,2800
+327624,Cabaña Los Gatos Airport,R,-27.142412,-61.764272,,,F,,2802
+327625,Estancia Las Marias Airport,R,-32.470437,-66.082103,,,F,,2809
+327626,Unidad Regional II de Polcia Heliport,R,-32.99354,-60.674636,,,F,,2831
+327639,Estancia 13 de Abril Airport,R,-35.515511,-61.758924,,,M,,2064
+327642,Pinto Airport,R,-29.152266,-62.675025,,,F,,
+327644,Pichanal-Franzini Airport,R,-23.338946,-64.247126,,,F,,2105
+327647,Traill Southeast Airport,R,-31.922586,-61.692139,,,F,,
+327651,Los Juries Airport,R,-28.477432,-62.1226,,,F,,
+327652,El Cuadrado Airport,R,-28.285565,-61.764686,,,F,,2713
