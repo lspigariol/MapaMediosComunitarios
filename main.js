@@ -11,7 +11,7 @@ window.onload = function() {
 var fondo
 /*CONFIGURANDO Y MOSTRANDO EL MAPA*/
 function mapConfig() {
-    mapa = L.map('mapa').setView([-40.231486, -66.197284], 4);
+    mapa = L.map('mapa').setView([-40.231486, -66.197284], 5);
     fondo = L.tileLayer('https://api.mapbox.com/styles/v1/lspigariol/ck821ynph157i1ip5g7adr5aj/tiles/256/{z}/{x}/{y}?access_token={accessToken}',{
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 18,
