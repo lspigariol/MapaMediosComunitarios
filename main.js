@@ -46,7 +46,7 @@ class Medio {
    
     crearMarcador(color){
 //        var marker = L.marker(this.ubicacion, { icon: (this.tipo == 'R' ? radioIcon : tvIcon)})
-        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color),title: this.nombre})
+        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color),title: this.nombre + " - " + this.ciudad})
         marker.bindPopup(
             `<h3>${this.nombre}</a></h3> 
             <h4> ${this.enlace()}
