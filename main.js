@@ -29,6 +29,7 @@ class Medio {
         this.ciudad = ciudad
         this.provincia = provincia
         this.definicion = definicion
+        this.red = definicion
     }
 
     esRadio(){
@@ -37,11 +38,12 @@ class Medio {
     esTV(){
         return this.tipo.nombre == "T"
     }
-    esDeRed(claveRed) {
+    esDeRed(claveRed, caracteristica) {
+        var carac = caracteristica.call(null,this)
         if (claveRed == ""){
-            return this.definicion==""
+            return carac==""
         }
-        return this.definicion.search(claveRed) != -1
+        return carac.search(claveRed) != -1
     }
    
     crearMarcador(color){
@@ -70,7 +72,7 @@ class MapaMedios {
     }
     
     agregarMarcador(medio){
-        var marker = medio.crearMarcador("negro")
+        var marker = medio.crearMarcador("verde")
         if(medio.esRadio()) 
             this.radios.push(marker)
         if(medio.esTV())
@@ -99,6 +101,10 @@ class MapaMedios {
         this.parentGroup.addTo(mapa)
 
     }
+    contenidoIndicaciones(){
+        return 'Los círculos indican la cantidad de medios en la zona, radios y tv. <br> Los tonos de color representan la concentración.'
+    }
+
 }
 
 class Red {
@@ -120,26 +126,19 @@ class Red {
 
 }
 class MapaRedes {
-    constructor(){
-        this.redes = [
-            new Red("Red de medios A","A","verde"),
-            new Red("Red nacional F","F","rojo"),
-            new Red("Red M","M","azul"),
-            new Red("Otras redes","X","marron"),
-            new Red("Sin red","","negro")
-
-        ]
+    constructor(items,caracteristica){
+        this.redes = items 
+        this.caracteristica = caracteristica
     }
     agregarMarcador(medio){
         this.redes.forEach(red=> {
-            if (medio.esDeRed(red.clave)){
+            if (medio.esDeRed(red.clave,this.caracteristica)){
                 var marker = medio.crearMarcador(red.color)
                 red.agregar(marker)
             }
         })
     }
     layer() {
-        //return new L.LayerGroup(this.redes.flatMap(red=>{red.markers}))
         return new L.LayerGroup(this.redes.flatMap(red=>{return red.markers}))
 
     }
@@ -153,7 +152,9 @@ class MapaRedes {
     //         menu.addOverlay(subGroup,red.nombre)
     //     })
     // }
-
+    contenidoIndicaciones(){
+        return ''
+    }
 
     armarGrupos(){ 
         //var parentGroup  = L.markerClusterGroup({maxClusterRadius:30});
@@ -193,7 +194,7 @@ function parsearCSV() {
 //pre: recibe un array de arrays
 //post:devuelve un array de medios 
 function convertirDatos(results) {
-    let medios = new Array();
+    var medios = new Array()
     results.data.forEach(element => {
         medios.push(new Medio(
             nombre = element[1],
@@ -204,9 +205,9 @@ function convertirDatos(results) {
             ciudad = element[8],
             provincia = element[9],
             definicion = element[7]
-        ));
-    });
-    return medios;
+        ))
+    })
+    return medios
 }
 
 class TipoMedio {
@@ -222,20 +223,12 @@ class TipoMedio {
     }
 }
 
-// var tvIcon = L.icon({
-//     iconUrl: DOWNLOAD + 'tv.png',
-//     iconSize: [40, 40],
-// });
-// var radioIcon = L.icon({
-//     iconUrl: DOWNLOAD + 'radio.png',
-//     iconSize: [40, 40],
-// });
-
 //pre:recibe un array de medios
 //post:crea y muestra marcadores con los medios
 function crearMapa(medios) {
-    console.log(medios);
-    marcadores(medios);
+    console.log(medios)
+    marcadores(medios)
+    referencias()
 }
 
 function marcadores(medios) {
@@ -248,16 +241,41 @@ function marcadores(medios) {
     var controlSearch = new L.Control.Search({
 		position:'topleft',		
 		layer: tipoMapa.layer(),
-//		layer: new L.layerGroup([]),
 		initial: false,
 		zoom: 12,
 		marker: false
 	})
 
-	mapa.addControl( controlSearch );
-    // radiosGroup = L.layerGroup(radios).addTo(mapa);
-    // tvsGroup = L.layerGroup(tvs).addTo(mapa);
+    mapa.addControl( controlSearch )
+    
 }
+
+
+function referencias() {
+
+    var indicaciones = L.control({position: 'bottomright'});
+    var leyendaIcono = 'Al clikear en el icono de Radio o TV se muestran sus datos de contacto y el enlace a su sitio web, en caso de disponer.' 
+    var leyendaZoom = 'Los iconos + y - son para acercar y alejar el mapa. La lupa es para buscar un medio a partir de sus datos básicos.'
+    var contenido = `<h3>Indicaciones</h3> <hs>${tipoMapa.contenidoIndicaciones()} <br>${leyendaIcono} <br> ${leyendaZoom} </h5>`
+    indicaciones.onAdd = function (mapa) {
+        var div = L.DomUtil.create('div', 'info legend')
+        div.innerHTML = contenido
+        return div
+    }
+    //indicaciones.addTo(mapa)
+
+
+    var dialog = L.control.dialog({size:[200,320],position:'topleft',anchor:[0,40]})
+              .setContent(contenido)
+ //             .showClose()
+              .addTo(mapa)
+  //            .unLock()
+  //dialog.hideClose()
+  //dialog.showClose()
+    
+
+}    
+
 
 // function obtenerCoordenadas(direccion){
 //     var resultado;

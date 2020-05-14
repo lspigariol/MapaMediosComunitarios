@@ -3,14 +3,14 @@
 103,Inclusión FM,R,-33.0103,-58.6131,http://www.inclusionfm.com.ar,,X,Gualeguaychu,Entre Ríos
 104,Entre Rios TV,T,-31.7948,-60.4804,https://entreriostv.com.ar,,F,Parana,Entre Ríos
 1,Obelisco de Buenos Aires,R,-34.6037019,-58.381872999999985,,,FMA,,
-2,Plaza de Mayo y Casco Histórico,R,-34.6083916,-58.37291270000003,,,F,,
+2,Plaza de Mayo y Casco Histórico,R,-34.6083916,-58.37291270000003,,,L,,
 3,Costanera Sur,R,-36.7324486,-56.67352679999999,,,,,
 4,Barrio Chino,R,-34.5625,-58.45833300000004,,,A,,
 5,Feria de Plaza Dorrego,R,-34.620468,-58.37179900000001,,,F,,
 6,Calle Lanín,R,-34.6403961,-58.3796959,,,,,
 7,Palacio Barolo,R,-34.6096818,-58.38568980000002,,,X,,
-8,Galerías Pacífico,R,-34.5992508,-58.375362300000006,,,AX,,
-9,Edificio Kavanagh,R,-34.595417,-58.37466699999999,,,A,,
+8,Galerías Pacífico,R,-34.5992508,-58.375362300000006,,,LAX,,
+9,Edificio Kavanagh,R,-34.595417,-58.37466699999999,,,LA,,
 10,Hipódromo Argentino de Palermo,R,-34.5692459,-58.426364199999966,,,F,,
 11,Museo Evita,R,-34.5806715,-58.41465370000003,,,M,,
 12,Caminito,R,-34.63937,-58.36257169999999,,,M,,
@@ -18,19 +18,19 @@
 14,Cementerio de La Recoleta,T,-34.5874834,-58.39344089999997,,,A,,
 15,La Floralis genérica,T,-34.5815,-58.39358329999999,,,F,,
 16,Reserva ecológica,T,-34.6112867,-58.351725999999985,,,M,,
-17,Usina del Arte,T,-34.6344961,-58.36313370000005,,,A,,
+17,Usina del Arte,T,-34.6344961,-58.36313370000005,,,L,,
 18,Paseo de la Historieta,T,-34.620556,-58.371667,,,,,
 19,Tranvía histórico,T,-34.6280999,-58.443142999999964,,,F,,
 20,Feria de San Telmo,T,-34.6248591,-58.37111249999998,,,M,,
 21,Tigre,T,-34.425087000,-58.579658500,,,F,,
 35405,Los Menucos,R,-40.817699,-68.074699,,,M,LMD,MCO
 35412,Valcheta,R,-40.7000007629,-66.1500015259,,,M,VCF,VAL
-35413,Villa Mercedes,R,-33.640858,-65.420074,,,F,,CED
-38694,13 De Diciembre,R,-45.9033,-67.5564,,,F,,ICO
-38695,Abel Monteverde,R,-32.9208,-62.4663,,,F,,HMB
-38696,Acindar,R,-33.2647,-60.2842,,,F,,ION
-38697,Aeroboero,R,-30.7286,-62.0078,,,F,,BOE
-38698,Bahia Blanca,R,-38.6722,-62.3522,,,M,,BHB
+35413,Villa Mercedes,R,-33.640858,-65.420074,,,FL,,CED
+38694,13 De Diciembre,R,-45.9033,-67.5564,,,FL,,ICO
+38695,Abel Monteverde,R,-32.9208,-62.4663,,,FL,,HMB
+38696,Acindar,R,-33.2647,-60.2842,,,FL,,ION
+38697,Aeroboero,R,-30.7286,-62.0078,,,FL,,BOE
+38698,Bahia Blanca,R,-38.6722,-62.3522,,,ML,,BHB
 38699,Balcarce,R,-37.9156,-58.3442,,,M,,BAL
 38700,Cipoletti,R,-38.8931007385,-67.9886016846,,,M,,CIP
 38701,Olavarria,R,-36.9644012451,-60.2757987976,,,M,,OLC
@@ -60,17 +60,17 @@
 38725,Austral,R,-52.8936,-68.3553,,,F,,ULL
 38726,Autodromo Ciudad De Bs. As.,R,-34.6939,-58.46,,,F,,HAU
 38727,Presidente Avellaneda,R,-29.1061,-59.6569,,,F,,AVL
-38728,Ayacucho,R,-37.1639,-58.4719,,,A,,AYA
-38729,Ayres De Pilar,R,-34.4375,-58.7983,,,A,,HAP
+38728,Ayacucho,R,-37.1639,-58.4719,,,L,,AYA
+38729,Ayres De Pilar,R,-34.4375,-58.7983,,,L,,HAP
 38730,Azcarate Irastorza,R,-35.1994,-63.6008,,,F,,
 38731,B&B Servicios Agropecuarios,R,-32.1147,-61.6328,,,F,,CBB
 38732,B. Churruca,T,-34.6407,-58.4094,,,F,,HBC
-38733,Baradero,T,-33.8217,-59.4925,,,A,,BDO
+38733,Baradero,T,-33.8217,-59.4925,,,L,,BDO
 38734,Barrancas,R,-36.7756004333,-69.8593978882,,,F,,
 38735,Basavilbaso,R,-32.3611,-58.8808,,,F,,BAS
 38736,Batan,R,-38.0117,-57.6775,,,A,,MDB
 38737,Belén De Escobar,R,-34.2986,-58.7989,,,A,,LEN
-38738,Bellamar,R,-38.3858,-58.1336,,,A,,MBL
+38738,Bellamar,R,-38.3858,-58.1336,,,L,,MBL
 38739,Benavidez,R,-34.388054,-58.663887,,,A,,DEZ
 38740,Blondi,R,-34.61333465576172,-61.02305603027344,,,A,,
 38741,Gran Ancona,R,-33.4383,-61.3017,,,F,,BOM
@@ -89,10 +89,6 @@
 38754,Cañuelas,R,-35.1119,-58.7261,,,A,,CNA
 38755,Capitan Sarmiento,R,-34.1639,-59.7311,,,A,,CTS
 38756,Vedia,R,-34.4817,-61.4903,,,A,,VDA
-38757,Carhue,R,-37.1942,-62.7814,,,A,,HUE
-38758,Carlos Casares,R,-35.6328,-61.3842,,,A,,CSR
-38759,Las Ensenadas,R,-31.4552993774,-64.5263977051,,,F,,CPZ
-38760,Carlos Tejedor,T,-35.4256,-62.4697,,,A,,TEJ
 38761,Carmen De Areco,R,-34.4175,-59.8719,,,A,,CNO
 38762,Casa De Gobierno,R,-31.4306,-64.1842,,,F,,HGC
 38763,Casilda,R,-33.0617,-61.21,,,F,,ILD
@@ -153,25 +149,11 @@
 38858,Gualeguay,R,-33.1036109924,-59.3747215271,,,F,,UAY
 38859,Agro Aereo Gualeguay,R,-33.0386,-59.4383,,,F,,GAA
 38860,Helicenter,R,-34.4975,-58.6069,,,,,HLI
-38861,Heliplataforma Am I,R,-52.5192,-68.3858,,,A,,HAB
-38862,Heliplataforma Carina,R,-52.7572,-67.2194,,,A,,HRI
-38863,Heliplataforma/Am-2,R,-52.5489,-68.3125,,,A,,HAD
-38864,Heliplataforma/Am3,R,-52.5228,-68.2808,,,A,,HAM
-38865,Heliplataforma/Am5,R,-52.5706,-68.2533,,,A,,HMQ
-38866,Heliplataforma/Rio Cullen-Hidra Norte,R,-52.8206,-68.2192,,,F,,HNO
 38867,Heliwest,R,-34.6336,-58.7511,,,,,HHW
 38868,Henderson,R,-36.3147010803,-61.747798919699996,,,,,HDS
-38869,Hospital De Milagro,R,-24.7731,-65.4156,,,F,,HHM
-38870,Hospital Materno Infantil San Roque,R,-31.73,-60.5217,,,F,,HPE
-38871,Hospital Municipal,R,-34.4489,-59.4494,,,,,HSH
-38872,Hospital Nac. De Pediatría J. Garraham,R,-34.6308,-58.3936,,,,,HNP
 38873,Huanguelen,R,-37.0330543518,-61.934165954600005,,,,,HUG
 38874,Huinca Renanco,R,-34.8203010559,-64.3731002808,,,F,,HUI
 38875,Ingeniero Luiggi,R,-35.3549995422,-64.4758300781,,,F,,IGL
-42803,Agroservicio Doña Teresa,R,-28.8494,-62.2625,,,F,,ADT
-38877,Establecimiento La Susana,R,-34.909168,-59.348888,,,,,
-38878,Intendente Alvear,R,-35.2592,-63.5328,,,F,,IAL
-38879,Intendente Alvear,R,-35.2494,-63.5342,,,F,,
 45160,Fumigaciones Herbinsec,R,-35.138611,-62.705278,,,,,ROH
 38881,Isla Santa Mónica,R,-34.4147,-58.5072,,,,,HSM
 38882,Don Hector Biondi,R,-33.2464,-62.4167,,,F,,IVB
@@ -205,7 +187,7 @@
 38910,Lago Buenos Aires,R,-46.5764007568,-70.948600769,,,A,,BAI
 38911,Lago Escondido,R,-41.7033,-71.6075,,,M,,HLE
 38912,Lago La Esperanza,R,-42.217499,-71.805003,,,F,,LZA
-38913,Lago Nahuel Huapi,R,-41.0971984863,-71.17780303960001,,,M,,LNH
+38913,Lago Nahuel Huapi,R,-41.0971984863,-71.17780303960001,,,L,,LNH
 38920,Las Marias,R,-28.1,-56.05,,,F,,VSO
 38921,Las Ovejas,R,-36.999699,-70.741897,,,F,,OVJ
 38922,Las Rosas,R,-32.4922,-61.5806,,,F,,LRS
@@ -232,9 +214,6 @@
 38959,Oficial Subinspector Gustavo Soarez De Souza,R,-34.7236,-58.515,,,M,,HMF
 38960,Oliva,R,-32.060798645,-63.5469017029,,,F,,OLV
 38961,Oreste Berta,R,-31.6269,-64.3922,,,F,,HOB
-38962,P.N.A. Of. Ppal. Ballestra,R,-34.5772,-58.3838,,,F,,HPN
-38963,Palitue,R,-39.81638717651367,-71.0294418334961,,,F,,
-38964,Parana,R,-31.7578,-60.3733,,,F,,ANA
 38965,Parana Club De Planeadores,R,-31.7314,-60.22,,,F,,PNA
 38966,Parque Hermoso,R,-38.0287,-57.6393,,,M,,MPH
 38967,Pedro Luro,R,-39.4561,-62.6747,,,M,,URO
@@ -287,32 +266,13 @@
 39014,Sarthou S.A.,R,-34.3642,-58.5497,,,M,,HFS
 39015,Saturnino Unzue,R,-35.4244,-60.1561,,,M,,HUU
 39016,Scaro,R,-24.4480552673,-65.1758346558,,,X,,MTS
-46643,Villa de María de Río Seco,R,-29.9,-63.683,,,X,,MRS
 39018,Sol De Agosto,R,-34.5331,-58.9714,,,M,,HAG
 39019,Stroeder,R,-40.2106,-62.6175,,,M,,STD
-39020,Suboficial Auxiliar Miguel A. Cardone,R,-33.9617,-61.6325,,,X,,VCC
-39021,Sunchales,R,-30.9575,-61.5283,,,X,NCJ,SCA
-39022,Swiss Medical,R,-34.5808,-58.4294,,,X,,HMD
 39023,Talitas,R,-32.5481,-58.2406,,,X,,HTA
 39024,Estancia Tecka,R,-43.6122207642,-71.0219421387,,,X,,TEC
-39025,Tecnocopter S.A.,R,-34.4922,-58.6061,,,M,,HHT
 39026,Terminal Y.P.F.,R,-34.7322,-58.5589,,,M,,HMY
 39027,Tilisarao,R,-32.75,-65.28220367429999,,,X,,TLS
 39028,Timen S.A.,R,-34.4964,-58.6078,,,M,,HDT
-39029,Tolosa,R,-34.8747,-57.9608,,,M,,PTL
-39030,Tornquist,R,-38.0956001282,-62.2503013611,,,M,,TOR
-39031,Tostado,R,-29.2358,-61.7886,,,X,,TOS
-39032,Transener S.A.,R,-34.175,-58.9983,,,M,,HCT
-39033,Transener S.A.,R,-34.9136,-58.7222,,,M,,HCG
-39034,Transener S.A.,R,-32.3694,-66.0631,,,X,,HLU
-39035,Recreo / Transener S.A.,R,-29.2628,-65.0582,,,X,,HRE
-39038,Transener S.A.,R,-40.1622,-70.3917,,,X,,HPG
-39039,Transener S.A.,R,-39.5675,-65.6886,,,M,,HCC
-39040,Transener S.A.,R,-29.4606,-59.7636,,,X,,HRT
-39041,Transener S.A.,R,-26.9936,-65.1636,,,X,,HBO
-39042,Almafuerte / Transener S.A.,R,-32.203,-64.315,,,X,,HAT
-39043,Montecristo / Transener S.A.,R,-31.3392,-63.9138,,,X,,HMT
-39044,Chevron Texaco,R,-37.365002,-69.300278,,,X,,TXO
 39045,Horco Molle,R,-26.7961006165,-65.3091964722,,,X,,TCM
 39046,Unidad Penitenciaria N° 30,R,-36.0444,-60.0167,,,M,,HUP
 39047,Urdinarrain,R,-32.6964,-58.8992,,,X,,URD
@@ -327,14 +287,3 @@
 39056,Villa Regina,R,-39.073600769,-67.08000183109999,,,M,,VRG
 39057,Villa Rumipal,R,-32.1850013733,-64.4882965088,,,F,,VRU
 39058,Zarate,R,-34.12,-59.0836,,,M,,ATE
-42806,Belingueres Aviación,R,-34.2778,-60.5044,,,M,,IBA
-42807,Bocca,R,-31.8711,-61.9511,,,F,,SJB
-42808,Buena Esperanza,R,-30.5306,-58.3972,,,F,,EZA
-42809,Buenos Aires,T,-33.859722,-59.468887,,,M,,
-42810,Burdisso,R,-32.2406,-61.7583,,,F,,TBL
-42811,Carlos Saqui,R,-31.635000228881836,-63.86109924316406,,,F,,RSA
-42812,Carmen De Patagones,R,-40.7781,-62.9803,,,M,CPG,PAT
-42813,Club De Planeadores,R,-38.0153,-57.6536,,,M,,MPP
-42814,Colonia Tirolesa,R,-31.244722,-64.035278,,,F,,TIR
-42815,Comandante Eduardo A. Olivero,R,-37.366668701171875,-58.96666717529297,,,M,,
-42816,Concepción,R,-27.345434,-65.617973,,,X,,CCP

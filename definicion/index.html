@@ -16,20 +16,36 @@
     <!--Clustering CSS-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
     <!--Papa parse JS-->
-    <script src="src/papaParse.js"></script>
+    <script src="../src/papaParse.js"></script>
+    <!--Panel Layers JS-->
+    <script src="../src/leaflet-panel-layers.js"></script>
+    <!--Panel Layers CSS-->
+    <link rel="stylesheet" href="../src/leaflet-panel-layers.css" />
     <!--Control search JS-->
-    <script src="src/leaflet-search.js"></script>
+    <script src="../src/leaflet-search.js"></script>
     <!--Control search CCS-->
-    <link rel="stylesheet" href="src/leaflet-search.css" />
+    <link rel="stylesheet" href="../src/leaflet-search.css" />
     <!--Control Dialog JS-->
-    <script src="src/Leaflet.Dialog.js"></script>
+    <script src="../src/Leaflet.Dialog.js"></script>
     <!--Control Dialog CCS-->
-    <link rel="stylesheet" href="src/Leaflet.Dialog.css"/>
+    <link rel="stylesheet" href="../src/Leaflet.Dialog.css"/>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
     <!--CSS STYLE-->
-    <link rel="stylesheet" href="style.css">
-    <!--mis Scripts-->
-    <script src="main.js"></script>
-    <script>var tipoMapa = new MapaMedios() </script>
+    <link rel="stylesheet" href="../style.css">
+     <!--mis Scripts-->
+     <script src="../main.js"></script>
+     <script> var tipoMapa = new MapaRedes([
+        new Red("Comunitaria","A","rojo"),
+        new Red("Alternativa","F","azul"),
+        new Red("Popular","M","verde"),
+        new Red("Cooperativos","L","amarillo"),
+        new Red("Pueblos Originarios","X","marron"),
+        new Red("Otras","","negro")
+    ], function(medio){return medio.definicion}) </script>
+) </script>
 
 </head>
 <body>

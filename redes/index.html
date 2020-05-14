@@ -25,13 +25,25 @@
     <script src="../src/leaflet-search.js"></script>
     <!--Control search CCS-->
     <link rel="stylesheet" href="../src/leaflet-search.css" />
-    
+    <!--Control Dialog JS-->
+    <script src="../src/Leaflet.Dialog.js"></script>
+    <!--Control Dialog CCS-->
+    <link rel="stylesheet" href="../src/Leaflet.Dialog.css"/>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
 
     <!--CSS STYLE-->
     <link rel="stylesheet" href="../style.css">
      <!--mis Scripts-->
      <script src="../main.js"></script>
-     <script> var tipoMapa = new MapaRedes() </script>
+     <script> var tipoMapa = new MapaRedes([
+        new Red("Red de medios A","A","verde"),
+        new Red("Red nacional F","F","rojo"),
+        new Red("Red M","M","azul"),
+        new Red("Otras redes","X","marron"),
+        new Red("Sin red","","negro")
+    ],  function(medio){return medio.red}) </script>
 
 </head>
 <body>
