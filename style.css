@@ -27,6 +27,9 @@
 .icon-marron {
 	background: url('puntomarron.png') center center no-repeat;
 }
+.icon-amarillo {
+	background: url('puntoamarillo.png') center center no-repeat;
+}
 
 .info {
     padding: 6px 8px;
