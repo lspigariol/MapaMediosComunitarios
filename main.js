@@ -21,15 +21,15 @@ function mapConfig() {
 }
 
 class Medio {
-    constructor(nombre,ubicacion,tipo, sitio, ciudad, provincia,definicion){
+    constructor(nombre,ubicacion,tipo, sitio, frecuencia, provincia,red, definicion){
         this.nombre = nombre
         this.ubicacion = ubicacion
         this.tipo = new TipoMedio(tipo)
         this.sitio = sitio
-        this.ciudad = ciudad
+        this.frecuencia = frecuencia
         this.provincia = provincia
         this.definicion = definicion
-        this.red = definicion
+        this.red = red
     }
 
     esRadio(){
@@ -198,13 +198,14 @@ function convertirDatos(results) {
     results.data.forEach(element => {
         medios.push(new Medio(
             nombre = element[1],
+            tipo = element[2],
             ubicacion = [element[3],element[4]],
             // Latitud y longitud
-            tipo = element[2],
             sitio = element[5],
-            ciudad = element[8],
-            provincia = element[9],
-            definicion = element[7]
+            frecuencia = element[6],
+            provincia = element[7],
+            red = element[8],
+            definicion = element[9]
         ))
     })
     return medios
