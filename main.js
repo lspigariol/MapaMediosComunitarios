@@ -258,7 +258,7 @@ function referencias() {
     var indicaciones = L.control({position: 'bottomright'});
     var leyendaIcono = 'Al clikear en el icono de Radio o TV se muestran sus datos de contacto y el enlace a su sitio web, en caso de disponer.' 
     var leyendaZoom = 'Los iconos + y - son para acercar y alejar el mapa. La lupa es para buscar un medio a partir de sus datos básicos.'
-    var contenido = `<h2>Los datos son de prueba, no representan medios reales</h2> <h3>Indicaciones</h3> <hs>${tipoMapa.contenidoIndicaciones()} <br>${leyendaIcono} <br> ${leyendaZoom} </h5>`
+    var contenido = `<h2>Los datos del mapa son de prueba, no representan medios reales</h2> <h3>Indicaciones</h3> <hs>${tipoMapa.contenidoIndicaciones()} <br>${leyendaIcono} <br> ${leyendaZoom} </h5>`
     indicaciones.onAdd = function (mapa) {
         var div = L.DomUtil.create('div', 'info legend')
         div.innerHTML = contenido
