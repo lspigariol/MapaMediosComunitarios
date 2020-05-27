@@ -21,15 +21,15 @@ function mapConfig() {
 }
 
 class Medio {
-    constructor(nombre,ubicacion,tipo, sitio, frecuencia, provincia,red, definicion){
+    constructor(nombre,tipo, ubicacion, sitio, frecuencia, provincia, red, definicion){
         this.nombre = nombre
         this.ubicacion = ubicacion
         this.tipo = new TipoMedio(tipo)
         this.sitio = sitio
         this.frecuencia = frecuencia
         this.provincia = provincia
-        this.definicion = definicion
         this.red = red
+        this.definicion = definicion
     }
 
     esRadio(){
@@ -48,11 +48,12 @@ class Medio {
    
     crearMarcador(color){
 //        var marker = L.marker(this.ubicacion, { icon: (this.tipo == 'R' ? radioIcon : tvIcon)})
-        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color),title: this.nombre + " - " + this.ciudad})
+        var marker = L.marker(this.ubicacion, { icon: this.tipo.crearIcono(color),title: this.nombre + " - " + this.provincia})
         marker.bindPopup(
             `<h3>${this.nombre}</a></h3> 
             <h4> ${this.enlace()}
-            <br> ${this.definicion} - ${this.ciudad} - ${this.provincia}
+            <br> ${this.definicion} - ${this.red}
+            <br> ${this.frecuencia} - ${this.provincia}
             </h4>`)
         return marker
     }
