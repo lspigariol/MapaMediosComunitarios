@@ -52,9 +52,9 @@ class Medio {
         marker.bindPopup(
             `<h3>${this.nombre}</a></h3> 
             <h4> ${this.enlace()}
-//            <br> ${this.definicion} - ${this.red}
             <br> ${this.frecuencia} - ${this.provincia}
             </h4>`)
+//            <br> ${this.definicion} - ${this.red}
         return marker
     }
     enlace(){
